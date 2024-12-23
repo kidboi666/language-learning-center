@@ -1,0 +1,19 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=WebStorm
+
+###
+
+POST http://localhost:3000/boards
+Content-Type: application/json
+
+{
+  "title": "안녕하세요",
+  "description": "그렇습니다."
+}
+
+###
+
+GET http://localhost:3000/boards
+Content-Type: application/json
+
