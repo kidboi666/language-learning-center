@@ -14,6 +14,16 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/boards
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "dolosolo",
+  "password": "free66"
+}
+
+###
+
+GET http://localhost:3000/auth/dolosolo
 Content-Type: application/json
 

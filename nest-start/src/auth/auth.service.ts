@@ -16,4 +16,8 @@ export class AuthService {
 
     await this.authRepository.save(user);
   }
+
+  async getUserByUsername(username: string): Promise<User> {
+    return this.authRepository.findOneBy({ username });
+  }
 }
