@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47d26d7d-8e70-4ff7-839c-dc66f86c0c92.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47d26d7d-8e70-4ff7-839c-dc66f86c0c92/storage_v2/_src_/database/nodebird.uwH3Qg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47d26d7d-8e70-4ff7-839c-dc66f86c0c92/storage_v2/_src_/database/nodebird.uwH3Qg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47d26d7d-8e70-4ff7-839c-dc66f86c0c92/storage_v2/_src_/database/nodebird.uwH3Qg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47d26d7d-8e70-4ff7-839c-dc66f86c0c92/storage_v2/_src_/database/nodebird.uwH3Qg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47d26d7d-8e70-4ff7-839c-dc66f86c0c92/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47d26d7d-8e70-4ff7-839c-dc66f86c0c92/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47d26d7d-8e70-4ff7-839c-dc66f86c0c92/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47d26d7d-8e70-4ff7-839c-dc66f86c0c92/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/userService.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/userService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/profile/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/profile/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +101,7 @@
       <workItem from="1735652511556" duration="1139000" />
       <workItem from="1735653758344" duration="111000" />
       <workItem from="1735653870742" duration="47000" />
-      <workItem from="1735653918869" duration="1600000" />
+      <workItem from="1735653918869" duration="1818000" />
     </task>
     <servers />
   </component>
