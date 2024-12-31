@@ -1,10 +1,10 @@
 const userService = require('../services/userService');
 
-exports.getUserByEmail = async (req, res) => {
-  const {email} = req.params;
+exports.getUserById = async (req, res) => {
+  const {id} = req.params;
   try {
-    const users = await userService.getUserByEmail(email);
-    res.json(users);
+    const user = await userService.getUserById(id);
+    res.json(user);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

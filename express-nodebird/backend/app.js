@@ -13,7 +13,6 @@ dotenv.config();
 const app = express();
 passportConfig();
 app.set('port', process.env.PORT || 8001);
-app.set('view engine', 'html');
 
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
