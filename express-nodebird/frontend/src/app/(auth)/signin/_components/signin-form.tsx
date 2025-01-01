@@ -1,13 +1,23 @@
-import FormSubmitButton from '@/app/(auth)/_components/form-submit-button';
-import { handleSignUp } from '@/actions/auth-action';
+'use client';
 
-export default function Page() {
+import { useActionState } from 'react';
+import FormSubmitButton from '@/app/(auth)/_components/form-submit-button';
+import { handleSignIn } from '@/actions/auth-action';
+import useMe from '@/context/use-me';
+
+export default function SignInForm() {
+  const [state, formAction, pending] = useActionState(handleSignIn, null);
+  const { me, setMe } = useMe();
+  if (!state?.error) {
+    setMe(state);
+  }
+  console.log(me);
   return (
     <form
-      action={handleSignUp}
+      action={formAction}
       className="flex w-96 flex-col items-center gap-4 rounded-lg bg-white p-4 shadow-lg"
     >
-      <h1 className="text-2xl font-bold text-zinc-800">회원가입</h1>
+      <h1 className="text-2xl font-bold text-zinc-800">로그인</h1>
       <div className="flex w-full flex-col gap-2">
         <label htmlFor="email" className="text-zinc-800">
           이메일
@@ -32,7 +42,8 @@ export default function Page() {
           className="w-full rounded-md bg-zinc-200 p-2 text-zinc-700 outline-0 ring-zinc-600 transition focus:ring-2"
         />
       </div>
-      <FormSubmitButton>가입 하기</FormSubmitButton>
+      <FormSubmitButton isPending={pending}>로그인 하기</FormSubmitButton>
+      {/*{state?.error && <p>{state.error}</p>}*/}
     </form>
   );
 }

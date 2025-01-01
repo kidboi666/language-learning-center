@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/passport/kakao-strategy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/passport/local-strategy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/prettier.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/services/auth-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/services/user-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Spinner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/auth-action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/_components/signin-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/context/context-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/context/use-me.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/passport/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/userService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/prettier.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/prettier.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/_components/form-submit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/form-submit-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/form-submit-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/form-submit-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
@@ -44,8 +26,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -76,30 +59,32 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Node.js.user-service.js.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/frontend/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/frontend/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.user-service.js.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "20.17.0",
+    "javascript.nodejs.core.library.typings.version": "20.17.11",
+    "last_opened_file_path": "/Users/jin-wook/Desktop/practice/express-nodebird",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/jin-wook/Desktop/practice/express-nodebird/frontend/node_modules/prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/jin-wook/Desktop/practice/express-nodebird/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/src/app/(auth)" />
@@ -129,7 +114,7 @@
       <workItem from="1735653758344" duration="111000" />
       <workItem from="1735653870742" duration="47000" />
       <workItem from="1735653918869" duration="5984000" />
-      <workItem from="1735697876245" duration="13361000" />
+      <workItem from="1735697876245" duration="19072000" />
     </task>
     <servers />
   </component>
