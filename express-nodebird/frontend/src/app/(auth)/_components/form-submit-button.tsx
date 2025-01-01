@@ -1,8 +1,9 @@
 'use client';
 
 import { useFormStatus } from 'react-dom';
+import { PropsWithChildren } from 'react';
 
-export default function FormSubmit() {
+export default function FormSubmitButton({ children }: PropsWithChildren) {
   const status = useFormStatus();
   return (
     <button
@@ -10,7 +11,7 @@ export default function FormSubmit() {
       disabled={status.pending}
       className="rounded-md bg-zinc-800 p-2 font-bold text-white"
     >
-      {status.pending ? '로딩...' : '가입하기'}
+      {status.pending ? 'loading...' : children}
     </button>
   );
 }

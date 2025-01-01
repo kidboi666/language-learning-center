@@ -10,7 +10,7 @@ const config = {
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_DATABASE,
-}
+};
 
 const db = pgp(config);
 
@@ -22,18 +22,18 @@ const runSQLFile = async (filePath) => {
   } catch (error) {
     console.error(error);
   }
-}
+};
 
 const initDB = async () => {
   try {
-  const initSQLPath = path.join(__dirname, 'init.sql');
-  await runSQLFile(initSQLPath);
-  console.log('DB initialized!');
-  } catch(err) {
+    const initSQLPath = path.join(__dirname, 'init.sql');
+    await runSQLFile(initSQLPath);
+    console.log('DB initialized!');
+  } catch (err) {
     console.error(err);
   }
-}
+};
 
-initDB()
+initDB();
 
 module.exports = db;
