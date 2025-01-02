@@ -17,12 +17,19 @@ export interface Me {
 }
 
 interface UseMeContext {
-  me: Me | null;
-  setMe: Dispatch<SetStateAction<Me | null>>;
+  me: Me;
+  setMe: Dispatch<SetStateAction<Me>>;
 }
 
 export const MeContext = createContext<UseMeContext>({
-  me: null,
+  me: {
+    id: 0,
+    name: '',
+    email: '',
+    provider: Provider.LOCAL,
+    avatarUrl: '',
+    createdAt: new Date(),
+  },
   setMe: () => {},
 });
 

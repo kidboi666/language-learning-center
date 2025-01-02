@@ -1,35 +1,47 @@
 const authService = require('../services/auth-service');
+const passport = require('passport');
 
-exports.login = async (req, res, next) => {
-  try {
-    await authService.loginUser(req, res, next);
-  } catch (err) {
-    console.error(err);
-  }
+exports.login = (req, res, next) => {
+  passport.authenticate('local', (authError, user, info) => {
+    if (authError) {
+      return next(authError);
+    }
+
+    if (!user) {
+      return res.json(info);
+    }
+
+    return req.login(user, (loginError) => {
+      if (loginError) {
+        return next(loginError);
+      }
+
+      return res.json(user);
+    });
+  })(req, res, next);
 };
 
 exports.logout = async (req, res, next) => {
   req.logout(() => {
-    res.redirect('/');
+    res.send();
   });
 };
 
-exports.createUser = async (req, res) => {
+exports.createUser = async (req, res, next) => {
   const { email, password } = req.body;
 
   try {
-    await authService.createUser({
+    await authService.createUser(req, res, next, {
       email,
       password,
     });
-    res.status(200).send();
+    res.send();
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ message: err.message });
+    next(err);
   }
 };
 
-exports.updateUser = async (req, res) => {
+exports.updateUser = async (req, res, next) => {
   const { id } = req.params;
   const { name, avatarUrl } = req.body;
 
@@ -39,9 +51,25 @@ exports.updateUser = async (req, res) => {
       name,
       avatarUrl,
     });
-    res.status(200).send();
+    res.send();
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ message: err.message });
+    next(err);
+  }
+};
+
+exports.checkSession = async (req, res, next) => {
+  console.log(req.session);
+  if (req.isAuthenticated()) {
+    res.json({ isLoggedIn: true });
+  } else {
+    res.json({ isLoggedIn: false });
+  }
+};
+
+exports.getUserInfo = async (req, res, next) => {
+  if (req.isAuthenticated()) {
+    res.json(req);
+  } else {
+    res.json({ message: 'You are not logged in' });
   }
 };

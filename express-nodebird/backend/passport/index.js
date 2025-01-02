@@ -4,19 +4,20 @@ const kakao = require('./kakao-strategy');
 const db = require('../db');
 
 module.exports = () => {
-  passport.serializeUser(async (user, done) => {
+  passport.serializeUser((user, done) => {
     done(null, user.id);
   });
 
-  passport.deserializeUser(async (id, done) => {
+  passport.deserializeUser((id, done) => {
     const query = 'select * from users where id = $1';
 
-    try {
-      const user = await db.one(query, [id]);
-      done(null, user);
-    } catch (err) {
-      done(err);
-    }
+    db.one(query, [id])
+      .then((user) => {
+        done(null, user);
+      })
+      .catch((err) => {
+        done(err);
+      });
   });
 
   local();

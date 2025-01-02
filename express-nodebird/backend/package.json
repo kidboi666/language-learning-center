@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "connect-redis": "^8.0.1",
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
@@ -18,7 +19,8 @@
     "passport": "^0.7.0",
     "passport-kakao": "^1.0.1",
     "passport-local": "^1.0.0",
-    "pg-promise": "^11.10.2"
+    "pg-promise": "^11.10.2",
+    "redis": "^4.7.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9",

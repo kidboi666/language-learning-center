@@ -5,16 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/actions/auth-action.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/_components/signin-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/context/context-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/context/use-me.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/@header/_components/fetch-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/@header/default.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/actions/action-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/actions/auth/auth-action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/form-submit-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/form-submit-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/middlewares/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/passport/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/passport/local-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/passport/local-strategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/services/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/auth-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/auth-action.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/_components/signin-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/auth-form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/profile/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/profile/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/context/context-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/context-provider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/context/use-me.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/use-me.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +47,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,51 +68,54 @@
     &quot;accountId&quot;: &quot;77d08c4c-3656-49c7-8d6b-e4b673dbf724&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2qyPaud3NsfeDS8PraRvPc73v2u" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Node.js.user-service.js.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "20.17.0",
-    "javascript.nodejs.core.library.typings.version": "20.17.11",
-    "last_opened_file_path": "/Users/jin-wook/Desktop/practice/express-nodebird",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/jin-wook/Desktop/practice/express-nodebird/frontend/node_modules/prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/jin-wook/Desktop/practice/express-nodebird/frontend/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Node.js.user-service.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.17.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.17.11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/backend/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;redis&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/app" />
+      <recent name="$PROJECT_DIR$/frontend/src" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/(auth)/_components" />
+      <recent name="$PROJECT_DIR$/frontend/src/actions/auth" />
       <recent name="$PROJECT_DIR$/frontend/src/app/(auth)" />
-      <recent name="$PROJECT_DIR$/backend/passport" />
-      <recent name="$PROJECT_DIR$/backend/db" />
-      <recent name="$PROJECT_DIR$/backend/seeders" />
-      <recent name="$PROJECT_DIR$/backend" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -114,7 +138,10 @@
       <workItem from="1735653758344" duration="111000" />
       <workItem from="1735653870742" duration="47000" />
       <workItem from="1735653918869" duration="5984000" />
-      <workItem from="1735697876245" duration="19072000" />
+      <workItem from="1735697876245" duration="23376000" />
+      <workItem from="1735783142202" duration="36658000" />
+      <workItem from="1735825488438" duration="167000" />
+      <workItem from="1735825671403" duration="1239000" />
     </task>
     <servers />
   </component>
