@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const passport = require('passport');
+const { isNotLoggedIn } = require('../middlewares');
 
-router.get('/kakao', passport.authenticate('kakao'));
+router.get('/kakao', isNotLoggedIn, passport.authenticate('kakao'));
 
 router.get(
   '/kakao/callback',

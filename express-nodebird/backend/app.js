@@ -12,6 +12,7 @@ const cors = require('cors');
 const userRouter = require('./routes/user');
 const authRouter = require('./routes/auth');
 const oauthRouter = require('./routes/oauth');
+const postRouter = require('./routes/post');
 
 dotenv.config();
 
@@ -39,7 +40,6 @@ app.use(
     secret: process.env.COOKIE_SECRET,
     // store: new RedisStore({ client: redisClient }),
     cookie: {
-      httpOnly: true,
       secure: false,
       maxAge: 60 * 60 * 1000,
     },
@@ -52,6 +52,7 @@ app.use(passport.session());
 app.use('/user', userRouter);
 app.use('/auth', authRouter);
 app.use('/oauth', oauthRouter);
+app.use('/post', postRouter);
 
 app.use((req, res, next) => {
   const error = new Error('Not Found');

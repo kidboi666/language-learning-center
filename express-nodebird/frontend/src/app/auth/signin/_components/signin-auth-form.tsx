@@ -1,7 +1,7 @@
 'use client';
 
-import FormSubmitButton from '@/app/(auth)/_components/form-submit-button';
-import OauthKakaoButton from '@/app/(auth)/_components/oauth-kakao-button';
+import FormSubmitButton from '@/app/auth/_components/form-submit-button';
+import OauthKakaoButton from '@/app/auth/_components/oauth-kakao-button';
 import { ChangeEvent, FormEvent, useState } from 'react';
 import Link from 'next/link';
 import { signIn } from '@/app/actions/client/auth/signIn';

@@ -1,7 +1,7 @@
 'use client';
 
-import FormSubmitButton from '@/app/(auth)/_components/form-submit-button';
-import OauthKakaoButton from '@/app/(auth)/_components/oauth-kakao-button';
+import FormSubmitButton from '@/app/auth/_components/form-submit-button';
+import OauthKakaoButton from '@/app/auth/_components/oauth-kakao-button';
 import { useActionState } from 'react';
 import { signUpAction } from '@/app/actions/server/auth/auth-action';
 

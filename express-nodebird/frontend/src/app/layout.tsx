@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <ContextProvider>
           {header}
-          {children}
+          <main className="pt-20">{children}</main>
         </ContextProvider>
       </body>
     </html>

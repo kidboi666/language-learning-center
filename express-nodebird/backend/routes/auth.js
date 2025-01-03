@@ -7,11 +7,12 @@ const {
   checkSession,
   logout,
 } = require('../controllers/auth');
+const { isNotLoggedIn, isLoggedIn } = require('../middlewares');
 
-router.patch('/:id', updateUser);
-router.post('/signup', createUser);
-router.post('/login', login);
-router.post('/logout', logout);
+router.patch('/:id', isLoggedIn, updateUser);
+router.post('/signup', isNotLoggedIn, createUser);
+router.post('/login', isNotLoggedIn, login);
+router.post('/logout', isLoggedIn, logout);
 router.get('/session', checkSession);
 
 module.exports = router;

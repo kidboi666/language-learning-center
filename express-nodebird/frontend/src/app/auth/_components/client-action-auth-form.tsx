@@ -1,8 +1,8 @@
 'use client';
 
 import { ChangeEvent, FormEvent, useState } from 'react';
-import FormSubmitButton from '@/app/(auth)/_components/form-submit-button';
-import OauthKakaoButton from '@/app/(auth)/_components/oauth-kakao-button';
+import FormSubmitButton from '@/app/auth/_components/form-submit-button';
+import OauthKakaoButton from '@/app/auth/_components/oauth-kakao-button';
 
 export default function Page() {
   const [email, setEmail] = useState('');
