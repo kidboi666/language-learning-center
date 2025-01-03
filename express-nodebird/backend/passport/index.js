@@ -11,7 +11,7 @@ module.exports = () => {
   passport.deserializeUser((id, done) => {
     const query = 'select * from users where id = $1';
 
-    db.one(query, [id])
+    db.oneOrNone(query, [id])
       .then((user) => {
         done(null, user);
       })
@@ -21,4 +21,5 @@ module.exports = () => {
   });
 
   local();
+  kakao();
 };

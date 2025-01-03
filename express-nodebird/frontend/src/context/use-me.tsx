@@ -12,8 +12,9 @@ export interface Me {
   name: string | null;
   email: string;
   provider: Provider;
-  avatarUrl: string | null;
-  createdAt: Date;
+  avatar_url: string | null;
+  created_at: Date;
+  sns_id: number | null;
 }
 
 interface UseMeContext {
@@ -24,11 +25,12 @@ interface UseMeContext {
 export const MeContext = createContext<UseMeContext>({
   me: {
     id: 0,
-    name: '',
+    name: null,
     email: '',
     provider: Provider.LOCAL,
-    avatarUrl: '',
-    createdAt: new Date(),
+    avatar_url: null,
+    created_at: new Date(),
+    sns_id: null,
   },
   setMe: () => {},
 });

@@ -3,17 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <Grants>1||-9223372036854775808|c|G
-1||10|c|G
-1||10|C|G
-1||10|T|G
-14105||-9223372036854775808|c|G
-14105||10|c|G
-14105||10|C|G
-14105||10|T|G</Grants>
-      <IntrospectionStateNumber>1039</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1074</IntrospectionStateNumber>
       <ServerVersion>14.15</ServerVersion>
-      <StartupTime>1735635144</StartupTime>
+      <StartupTime>1735783034</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -813,7 +805,7 @@ false Zulu
 13740||10|C|G
 13740||-9223372036854775808|U|G
 13740||10|U|G</Grants>
-      <IntrospectionStateNumber>1039</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1074</IntrospectionStateNumber>
       <ObjectId>25554</ObjectId>
       <OwnerName>jin-wook</OwnerName>
     </database>
@@ -4247,8 +4239,8 @@ false Zulu
     <schema id="264" parent="3" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>1039</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2024-12-31.14:15:38</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>1074</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-01-03.05:08:59</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>526</StateNumber>
       <OwnerName>jin-wook</OwnerName>
@@ -4263,16 +4255,16 @@ kakao</Labels>
       <OwnerName>jin-wook</OwnerName>
     </object-type>
     <sequence id="266" parent="264" name="users_id_seq">
-      <ObjectId>25584</ObjectId>
+      <ObjectId>25636</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>1034</StateNumber>
+      <StateNumber>1073</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>jin-wook</OwnerName>
     </sequence>
     <table id="267" parent="264" name="users">
-      <ObjectId>25585</ObjectId>
-      <StateNumber>1034</StateNumber>
+      <ObjectId>25637</ObjectId>
+      <StateNumber>1073</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>jin-wook</OwnerName>
     </table>
@@ -4280,83 +4272,88 @@ kakao</Labels>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>1034</StateNumber>
+      <StateNumber>1073</StateNumber>
       <StoredType>integer|0s</StoredType>
-      <SequenceId>25584</SequenceId>
+      <SequenceId>25636</SequenceId>
       <TypeId>23</TypeId>
     </column>
     <column id="269" parent="267" name="email">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>1034</StateNumber>
+      <StateNumber>1073</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="270" parent="267" name="name">
       <Position>3</Position>
-      <StateNumber>1034</StateNumber>
+      <StateNumber>1073</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="271" parent="267" name="password">
-      <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>1034</StateNumber>
+      <StateNumber>1073</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="272" parent="267" name="provider">
       <DefaultExpression>&apos;local&apos;::provider_type_enum</DefaultExpression>
       <Position>5</Position>
-      <StateNumber>1034</StateNumber>
+      <StateNumber>1073</StateNumber>
       <StoredType>provider_type_enum|0s</StoredType>
       <TypeId>25566</TypeId>
     </column>
-    <column id="273" parent="267" name="avatar_url">
+    <column id="273" parent="267" name="sns_id">
       <Position>6</Position>
-      <StateNumber>1034</StateNumber>
+      <StateNumber>1073</StateNumber>
+      <StoredType>bigint|0s</StoredType>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="274" parent="267" name="avatar_url">
+      <Position>7</Position>
+      <StateNumber>1073</StateNumber>
       <StoredType>varchar(200)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="274" parent="267" name="created_at">
+    <column id="275" parent="267" name="created_at">
       <DefaultExpression>now()</DefaultExpression>
-      <Position>7</Position>
-      <StateNumber>1034</StateNumber>
+      <Position>8</Position>
+      <StateNumber>1073</StateNumber>
       <StoredType>timestamp|0s</StoredType>
       <TypeId>1114</TypeId>
     </column>
-    <index id="275" parent="267" name="users_pkey">
+    <index id="276" parent="267" name="users_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>25593</ObjectId>
+      <ObjectId>25645</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1034</StateNumber>
+      <StateNumber>1073</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="276" parent="267" name="users_email_key">
+    <index id="277" parent="267" name="users_email_key">
       <ColNames>email</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>25595</ObjectId>
-      <StateNumber>1034</StateNumber>
+      <ObjectId>25647</ObjectId>
+      <StateNumber>1073</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="277" parent="267" name="users_pkey">
+    <key id="278" parent="267" name="users_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>25594</ObjectId>
+      <ObjectId>25646</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1034</StateNumber>
-      <UnderlyingIndexId>25593</UnderlyingIndexId>
+      <StateNumber>1073</StateNumber>
+      <UnderlyingIndexId>25645</UnderlyingIndexId>
     </key>
-    <key id="278" parent="267" name="users_email_key">
+    <key id="279" parent="267" name="users_email_key">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>25596</ObjectId>
-      <StateNumber>1034</StateNumber>
-      <UnderlyingIndexId>25595</UnderlyingIndexId>
+      <ObjectId>25648</ObjectId>
+      <StateNumber>1073</StateNumber>
+      <UnderlyingIndexId>25647</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>

@@ -1,6 +1,5 @@
-import { signUpAction } from '@/app/actions/auth/auth-action';
-import AuthForm from '@/app/(auth)/_components/auth-form';
+import SignupAuthForm from '@/app/(auth)/signup/_components/signup-auth-form';
 
 export default function Page() {
-  return <AuthForm action={signUpAction} />;
+  return <SignupAuthForm />;
 }

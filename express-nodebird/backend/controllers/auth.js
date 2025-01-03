@@ -23,7 +23,7 @@ exports.login = (req, res, next) => {
 
 exports.logout = async (req, res, next) => {
   req.logout(() => {
-    res.send();
+    res.redirect(process.env.CLIENT_URL);
   });
 };
 
@@ -58,18 +58,9 @@ exports.updateUser = async (req, res, next) => {
 };
 
 exports.checkSession = async (req, res, next) => {
-  console.log(req.session);
   if (req.isAuthenticated()) {
-    res.json({ isLoggedIn: true });
+    res.json({ isLoggedIn: true, user: req.user });
   } else {
     res.json({ isLoggedIn: false });
-  }
-};
-
-exports.getUserInfo = async (req, res, next) => {
-  if (req.isAuthenticated()) {
-    res.json(req);
-  } else {
-    res.json({ message: 'You are not logged in' });
   }
 };

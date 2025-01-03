@@ -5,37 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/@header/_components/fetch-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/@header/default.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/actions/action-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/actions/auth/auth-action.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/oauth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/client-action-auth-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/oauth-kakao-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/_components/signup-auth-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/@header/_components/login-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/@header/_components/logout-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/actions/client/auth/get-session.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/actions/client/auth/signIn.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/libs/cn.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c402fb77-0991-44d5-a663-507f228a6f7a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c402fb77-0991-44d5-a663-507f228a6f7a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c402fb77-0991-44d5-a663-507f228a6f7a/storage_v2/_src_/database/nodebird.uwH3Qg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c402fb77-0991-44d5-a663-507f228a6f7a/storage_v2/_src_/database/nodebird.uwH3Qg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/middlewares/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db/init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/passport/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/passport/local-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/passport/local-strategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/passport/kakao-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/passport/kakao-strategy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/services/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/auth-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/auth-action.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/_components/signin-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/auth-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/auth-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/_components/signin-auth-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/form-submit-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/form-submit-button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/profile/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/profile/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/context/context-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/context-provider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/@header/_components/fetch-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/@header/_components/get-session-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/@header/default.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/@header/default.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/actions/auth/auth-action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/actions/server/auth/auth-action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/context/use-me.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/use-me.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +50,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -111,11 +114,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/app" />
-      <recent name="$PROJECT_DIR$/frontend/src" />
-      <recent name="$PROJECT_DIR$/frontend/src/app/(auth)/_components" />
-      <recent name="$PROJECT_DIR$/frontend/src/actions/auth" />
-      <recent name="$PROJECT_DIR$/frontend/src/app/(auth)" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/api/auth/signin" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/api" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/actions/server" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/actions" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/actions/auth" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -141,7 +144,7 @@
       <workItem from="1735697876245" duration="23376000" />
       <workItem from="1735783142202" duration="36658000" />
       <workItem from="1735825488438" duration="167000" />
-      <workItem from="1735825671403" duration="1239000" />
+      <workItem from="1735825671403" duration="33323000" />
     </task>
     <servers />
   </component>

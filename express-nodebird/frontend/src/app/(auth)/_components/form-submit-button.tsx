@@ -3,7 +3,7 @@
 import { PropsWithChildren } from 'react';
 
 interface Props {
-  isPending: boolean;
+  isPending?: boolean;
 }
 
 export default function FormSubmitButton({

@@ -19,7 +19,7 @@ const createUser = async (req, res, next, params) => {
     throw error;
   }
 
-  const hash = bcrypt.hash(password, 12);
+  const hash = await bcrypt.hash(password, 12);
   const query = 'insert into users(email, password) values($1, $2)';
 
   await db.none(query, [email, hash]);

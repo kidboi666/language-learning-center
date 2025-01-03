@@ -1,16 +1,30 @@
-import {
-  getSession,
-  getViewCount,
-  logout,
-} from '@/app/actions/auth/auth-action';
-import FetchButton from '@/app/@header/_components/fetch-button';
+'use client';
 
-export default async function Default() {
+import GetSessionButton from '@/app/@header/_components/get-session-button';
+import { useEffect, useState } from 'react';
+import LoginButton from '@/app/@header/_components/login-button';
+import LogoutButton from '@/app/@header/_components/logout-button';
+import { getSession } from '@/app/actions/client/auth/get-session';
+
+export default function Default() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleFetch = async () => {
+    const res = await getSession();
+
+    if (res.status === 'success') {
+      setIsLoggedIn(res.data.isLoggedIn);
+    }
+  };
+
+  useEffect(() => {
+    void handleFetch();
+  }, []);
+
   return (
     <div className="fixed left-0 top-0 flex w-full gap-2 bg-white p-2 shadow-md">
-      <FetchButton action={logout}>로그아웃</FetchButton>
-      <FetchButton action={getSession}>세션 가져오기</FetchButton>
-      <FetchButton action={getViewCount}>view 가져오기</FetchButton>
+      {isLoggedIn ? <LogoutButton /> : <LoginButton />}
+      <GetSessionButton />
     </div>
   );
 }

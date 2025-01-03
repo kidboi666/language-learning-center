@@ -1,22 +1,23 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
-import { getSession } from '@/app/actions/auth/auth-action';
+import { NextRequest, NextResponse } from 'next/server';
 
 export async function middleware(req: NextRequest) {
-  // if (req.nextUrl.pathname.startsWith('/profile')) {
-  //   await getSession();
-  //   return NextResponse.next();
-  // }
-  //
-  // if (
-  //   req.nextUrl.pathname.startsWith('/signin') ||
-  //   req.nextUrl.pathname.startsWith('/signup')
-  // ) {
-  //   const { data } = await getSession();
-  //   if (data.isLoggedIn) {
-  //     NextResponse.redirect('/');
-  //   } else {
-  //     NextResponse.next();
-  //   }
-  // }
+  if (
+    req.nextUrl.pathname.startsWith('/signin') ||
+    req.nextUrl.pathname.startsWith('/signup')
+  ) {
+    const response = await fetch(
+      `${process.env.NEXT_PUBLIC_SERVER_URL}/auth/session`,
+      {
+        method: 'GET',
+        credentials: 'include',
+      },
+    );
+    const data = await response.json();
+    console.log(data);
+    if (data.isLoggedIn) {
+      NextResponse.redirect('/');
+    } else {
+      NextResponse.next();
+    }
+  }
 }
