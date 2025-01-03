@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/oauth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/oauth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/client-action-auth-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/_components/client-action-auth-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/form-submit-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/_components/form-submit-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/_components/oauth-kakao-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/_components/oauth-kakao-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/_components/signin-auth-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/signin/_components/signin-auth-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/signin/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/_components/signup-auth-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/signup/_components/signup-auth-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/(auth)/signup/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/signup/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/@header/_components/login-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/@header/_components/login-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +49,6 @@
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
@@ -133,7 +113,7 @@
       <workItem from="1735783142202" duration="36658000" />
       <workItem from="1735825488438" duration="167000" />
       <workItem from="1735825671403" duration="35786000" />
-      <workItem from="1735906726282" duration="8561000" />
+      <workItem from="1735906726282" duration="9042000" />
     </task>
     <servers />
   </component>
