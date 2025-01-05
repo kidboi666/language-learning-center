@@ -10,6 +10,7 @@ export default function Button({
   children,
   onClick,
   loading,
+  type = 'button',
   className,
 }: PropsWithChildren<Props>) {
   return (
@@ -18,7 +19,7 @@ export default function Button({
         'rounded-md bg-zinc-800 p-2 font-bold text-white',
         className,
       )}
-      type="button"
+      type={type}
       onClick={onClick}
     >
       {loading ? 'Loading...' : children}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/api-sever/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-sever/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-sever/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/v1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/services/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/auth-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/uploads/áá³áá³ááµá«áá£áº 2024-11-22 áá©áá® 5.53.251735920260663.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/uploads/áá³áá³ááµá«áá£áº 2024-11-22 áá©áá® 6.03.45(2)1735920314438.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kidboi666&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kidboi666/practice.git&quot;,
+    &quot;accountId&quot;: &quot;77d08c4c-3656-49c7-8d6b-e4b673dbf724&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2qyPaud3NsfeDS8PraRvPc73v2u" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.user-service.js.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "20.17.0",
+    "javascript.nodejs.core.library.typings.version": "20.17.11",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "/Users/jin-wook/Desktop/practice/express-nodebird",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/jin-wook/Desktop/practice/express-nodebird/frontend/node_modules/prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "settings.editor.splitter.proportion": "0.28004074",
+    "ts.external.directory.path": "/Users/jin-wook/Desktop/practice/express-nodebird/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis",
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/app/api/auth/signin" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/api" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/actions/server" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/actions" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/actions/auth" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="" />
+      <created>1735631908876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735631908876</updated>
+      <workItem from="1735631910047" duration="14002000" />
+      <workItem from="1735652511556" duration="1139000" />
+      <workItem from="1735653758344" duration="111000" />
+      <workItem from="1735653870742" duration="47000" />
+      <workItem from="1735653918869" duration="5984000" />
+      <workItem from="1735697876245" duration="23376000" />
+      <workItem from="1735783142202" duration="36658000" />
+      <workItem from="1735825488438" duration="167000" />
+      <workItem from="1735825671403" duration="35786000" />
+      <workItem from="1735906726282" duration="13411000" />
+      <workItem from="1735970979237" duration="4200000" />
+      <workItem from="1736007474763" duration="876000" />
+      <workItem from="1736055885653" duration="3550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

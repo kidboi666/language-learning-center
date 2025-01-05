@@ -1,6 +1,5 @@
 const db = require('../db');
 const bcrypt = require('bcrypt');
-const passport = require('passport');
 
 const checkEmailExists = async (email) => {
   const query = 'select * from users where email = $1';
