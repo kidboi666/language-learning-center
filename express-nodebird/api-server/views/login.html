@@ -35,13 +35,11 @@
     <th>타입</th>
     <th>클라이언트 비밀키</th>
   </tr>
-  {% for domain in domains %}
   <tr>
     <td>{{domain.host}}</td>
     <td>{{domain.type}}</td>
     <td>{{domain.client_secret}}</td>
   </tr>
-  {% endfor %}
 </table>
 {% else %}
 <form action="/auth/login" id="login-form" method="post">

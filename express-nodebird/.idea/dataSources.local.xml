@@ -10,7 +10,9 @@
       <user-name>jin-wook</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="nodebird">
+          <node kind="database">
+            <name qname="nodebird" />
+            <name qname="nodebird2" />
             <node kind="schema" qname="public" />
           </node>
         </introspection-scope>

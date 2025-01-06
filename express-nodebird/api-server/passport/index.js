@@ -1,7 +1,7 @@
 const passport = require('passport');
 const local = require('./local-strategy');
 const kakao = require('./kakao-strategy');
-const db = require('../db');
+const { User } = require('../models');
 
 module.exports = () => {
   passport.serializeUser((user, done) => {
@@ -9,9 +9,21 @@ module.exports = () => {
   });
 
   passport.deserializeUser((id, done) => {
-    const query = 'select * from users where id = $1';
-
-    db.oneOrNone(query, [id])
+    User.findOne({
+      where: { id },
+      include: [
+        {
+          model: User,
+          attributes: ['id', 'nick'],
+          as: 'Followers',
+        },
+        {
+          model: User,
+          attributes: ['id', 'nick'],
+          as: 'Followings',
+        },
+      ],
+    })
       .then((user) => {
         done(null, user);
       })

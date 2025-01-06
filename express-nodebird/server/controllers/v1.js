@@ -5,11 +5,11 @@ exports.createToken = async (req, res) => {
   const { clientSecret } = req.body;
   try {
     const query =
-      'SELECT d.*, u.name, u.id ' +
-      'FROM domain d ' +
-      'JOIN users u ' +
-      'ON d.user_id = u.id ' +
-      'WHERE d.client_secret = $1';
+      'select d.*, u.name, u.id ' +
+      'from domain d ' +
+      'join users u ' +
+      'on d.user_id = u.id ' +
+      'where d.client_secret = $1';
     const domain = await db.oneOrNone(query, [clientSecret]);
 
     if (!domain) {

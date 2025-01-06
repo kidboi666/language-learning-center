@@ -1,15 +1,17 @@
-const db = require('../db');
+const { v4: uuidv4 } = require('uuid');
+const { User, Domain } = require('../models');
 
 exports.renderLogin = async (req, res, next) => {
-  const query =
-    'SELECT u.*, json_agg(d) as domains FROM users u LEFT JOIN domain d ON d.user_id = u.id WHERE u.id = $1 GROUP BY u.id';
   try {
-    const user = await db.oneOrNone(query, [req.user?.id || null]);
-    console.log(user);
+    const user = await User.findOne({
+      where: { id: req.user?.id || null },
+      include: { model: Domain },
+    });
     res.render('login', {
       user,
-      domains: user?.domains,
+      domains: user?.Domains,
     });
+    console.log(await user);
   } catch (err) {
     console.error(err);
     next(err);
@@ -17,9 +19,13 @@ exports.renderLogin = async (req, res, next) => {
 };
 
 exports.createDomain = async (req, res, next) => {
-  const query = 'INSERT INTO domain(user_id, host, type) VALUES ($1, $2, $3)';
   try {
-    await db.none(query, [req.user?.id, req.body.host, req.body.type]);
+    await Domain.create({
+      UserId: req.user.id,
+      host: req.body.host,
+      type: req.body.type,
+      clientSecret: uuidv4(),
+    });
     res.redirect('/');
   } catch (err) {
     console.error(err);
