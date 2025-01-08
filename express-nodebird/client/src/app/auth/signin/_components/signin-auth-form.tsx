@@ -27,8 +27,8 @@ export default function SigninAuthForm() {
     >
       <div className="relative flex w-full flex-1 justify-center">
         <Link
-          href="/signup"
-          className="absolute left-0 text-nowrap text-sm underline"
+          href="/auth/signup"
+          className="absolute left-0 text-nowrap text-sm text-zinc-800 underline"
         >
           가입 하러 가기
         </Link>

@@ -2,14 +2,12 @@ const db = require('../db');
 const bcrypt = require('bcrypt');
 
 const checkEmailExists = async (email) => {
-  const query = 'select * from users where email = $1';
-
-  return await db.oneOrNone(query, [email]);
+  const query = 'SELECT * FROM users WHERE email = $1';
+  await db.oneOrNone(query, [email]);
 };
 
 const createUser = async (req, res, next, params) => {
   const { email, password } = params;
-
   const isValid = await checkEmailExists(email, password);
 
   if (!!isValid) {
@@ -19,21 +17,24 @@ const createUser = async (req, res, next, params) => {
   }
 
   const hash = await bcrypt.hash(password, 12);
-  const query = 'insert into users(email, password) values($1, $2)';
-
+  const query = `INSERT INTO users(email, password)
+                 VALUES ($1, $2)`;
   await db.none(query, [email, hash]);
 };
 
 const updateUser = async (params) => {
-  const { id, name, avatarUrl } = params;
-  const query = 'update users set name = $2, avatar_url = $3 where id = $1';
-
-  await db.none(query, [id, name, avatarUrl]);
+  const { id, nick, avatarUrl } = params;
+  const query = `UPDATE users
+                 SET nick       = $2,
+                     avatar_url = $3
+                 WHERE id = $1`;
+  await db.none(query, [id, nick, avatarUrl]);
 };
 
 const deleteUser = async (id) => {
-  const query = 'delete from users where id = $1';
-
+  const query = `DELETE
+                 FROM users
+                 WHERE id = $1`;
   await db.none(query, [id]);
 };
 

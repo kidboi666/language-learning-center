@@ -1,17 +1,12 @@
-const { v4: uuidv4 } = require('uuid');
-const { User, Domain } = require('../models');
+const indexService = require('../services/index-service');
 
 exports.renderLogin = async (req, res, next) => {
   try {
-    const user = await User.findOne({
-      where: { id: req.user?.id || null },
-      include: { model: Domain },
-    });
+    const user = await indexService.renderLogin(req.user?.id || null);
     res.render('login', {
       user,
-      domains: user?.Domains,
+      domains: user?.domain,
     });
-    console.log(await user);
   } catch (err) {
     console.error(err);
     next(err);
@@ -20,12 +15,7 @@ exports.renderLogin = async (req, res, next) => {
 
 exports.createDomain = async (req, res, next) => {
   try {
-    await Domain.create({
-      UserId: req.user.id,
-      host: req.body.host,
-      type: req.body.type,
-      clientSecret: uuidv4(),
-    });
+    await indexService.createDomain(req.user.id, req.body.host, req.body.type);
     res.redirect('/');
   } catch (err) {
     console.error(err);

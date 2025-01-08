@@ -1,6 +1,6 @@
 const passport = require('passport');
 const KakaoStrategy = require('passport-kakao').Strategy;
-const db = require('../db');
+const passportService = require('../services/passport-service');
 
 module.exports = () => {
   passport.use(
@@ -11,21 +11,19 @@ module.exports = () => {
       },
       async (accessToken, refreshToken, profile, done) => {
         try {
-          const selectQuery =
-            'select * from users where sns_id = $1 and provider = $2';
-          const user = await db.oneOrNone(selectQuery, [profile.id, 'kakao']);
-
+          const user = await passportService.getUserBySnsId(
+            profile.id,
+            'kakao',
+          );
           if (user) {
             done(null, user);
           } else {
-            const insertQuery =
-              'insert into users(email, name, sns_id, provider) values($1, $2, $3, $4) returning *';
-            const newUser = await db.none(insertQuery, [
+            const newUser = await passportService.createOAuthUser(
               profile._json?.kakao_account?.email,
               profile.displayName,
               profile.id,
               'kakao',
-            ]);
+            );
 
             done(null, newUser);
           }

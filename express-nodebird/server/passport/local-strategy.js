@@ -1,6 +1,6 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-const db = require('../db');
+const passportService = require('../services/passport-service');
 const bcrypt = require('bcrypt');
 
 module.exports = () => {
@@ -11,10 +11,8 @@ module.exports = () => {
         passwordField: 'password',
       },
       async (email, password, done) => {
-        const query = 'select * from users where email = $1';
-
         try {
-          const user = await db.oneOrNone(query, [email]);
+          const user = await passportService.getUserByEmail(email);
 
           if (user) {
             const result = await bcrypt.compare(password, user.password);

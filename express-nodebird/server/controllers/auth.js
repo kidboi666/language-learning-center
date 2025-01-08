@@ -48,7 +48,7 @@ exports.updateUser = async (req, res, next) => {
   try {
     await authService.updateUser({
       id,
-      name,
+      nick: name,
       avatarUrl,
     });
     res.send();

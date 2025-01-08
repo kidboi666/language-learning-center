@@ -1,48 +1,49 @@
-create table if not exists users
+CREATE TABLE IF NOT EXISTS users
 (
-    id         serial primary key,
-    email      varchar(100) unique not null,
-    name       varchar(100),
-    password   varchar(100),
-    provider   provider_type_enum default 'local',
-    sns_id     bigint,
-    avatar_url varchar(200),
-    created_at timestamp          default now()
+    id         SERIAL PRIMARY KEY,
+    email      VARCHAR(100) UNIQUE NOT NULL,
+    nick       VARCHAR(100),
+    password   VARCHAR(100),
+    provider   PROVIDER_TYPE_ENUM DEFAULT 'local',
+    sns_id     BIGINT,
+    avatar_url VARCHAR(200),
+    created_at TIMESTAMP          DEFAULT NOW()
 );
 
-create table if not exists posts
+CREATE TABLE IF NOT EXISTS posts
 (
-    id         serial primary key,
-    title      text not null,
-    content    text not null,
-    image      text,
-    created_at timestamp default now()
+    id         SERIAL PRIMARY KEY,
+    title      TEXT       NOT NULL,
+    content    TEXT       NOT NULL,
+    image      TEXT,
+    created_at TIMESTAMP DEFAULT NOW(),
+    user_id    INT UNIQUE NOT NULL,
+    CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
 );
 
-create table if not exists hashtags
+CREATE TABLE IF NOT EXISTS hashtags
 (
-    id         serial primary key,
-    title      text not null,
-    created_at timestamp default now()
+    id         SERIAL PRIMARY KEY,
+    title      TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW()
 );
 
-create table if not exists post_hashtags
+CREATE TABLE IF NOT EXISTS post_hashtags
 (
-    post_id    int not null,
-    hashtag_id int not null,
-    primary key (post_id, hashtag_id),
-    foreign key (post_id) references posts (id) on delete cascade,
-    foreign key (hashtag_id) references hashtags (id) on delete cascade
+    post_id    INT NOT NULL,
+    hashtag_id INT NOT NULL,
+    PRIMARY KEY (post_id, hashtag_id),
+    FOREIGN KEY (post_id) REFERENCES posts (id) ON DELETE CASCADE,
+    FOREIGN KEY (hashtag_id) REFERENCES hashtags (id) ON DELETE CASCADE
 );
 
-create table if not exists domain
+CREATE TABLE IF NOT EXISTS domain
 (
-    id            serial primary key,
-    host          varchar(80) not null,
-    type          domain_type_enum default ('free'),
-    client_secret uuid             default gen_random_uuid(),
-    created_at    timestamp        default now(),
-    user_id       int unique  not null,
-    constraint fk_user foreign key (user_id) references users (id) on delete cascade
+    id            SERIAL PRIMARY KEY,
+    host          VARCHAR(80) NOT NULL,
+    type          DOMAIN_TYPE_ENUM DEFAULT ('free'),
+    client_secret UUID             DEFAULT gen_random_uuid(),
+    created_at    TIMESTAMP        DEFAULT NOW(),
+    user_id       INT UNIQUE  NOT NULL,
+    CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
 );
-

@@ -34,6 +34,6 @@ const initDB = async () => {
   }
 };
 
-initDB();
+void initDB();
 
 module.exports = db;
