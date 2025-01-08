@@ -1,6 +1,6 @@
 const passport = require('passport');
 const KakaoStrategy = require('passport-kakao').Strategy;
-const { User } = require('../models');
+const passportService = require('../services/passport.service');
 
 module.exports = () => {
   passport.use(
@@ -11,22 +11,23 @@ module.exports = () => {
       },
       async (accessToken, refreshToken, profile, done) => {
         try {
-          const user = await User.findOne({
-            where: { snsId: profile.id, provider: 'kakao' },
-          });
+          const user = await passportService.getUserBySnsId(
+            profile.id,
+            'kakao',
+          );
           if (user) {
             done(null, user);
           } else {
-            const newUser = await User.create({
-              email: profile._json && profile._json.kaccount_email,
-              nick: profile.displayName,
-              snsId: profile.id,
-              provider: 'kakao',
-            });
+            const newUser = await passportService.createOAuthUser(
+              profile._json?.kakao_account?.email,
+              profile.displayName,
+              profile.id,
+              'kakao',
+            );
+
             done(null, newUser);
           }
         } catch (err) {
-          console.error(err);
           done(err);
         }
       },

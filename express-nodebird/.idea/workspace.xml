@@ -5,40 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/api-server/db/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/services/auth-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/services/index-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/services/v1-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/passport-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/post-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird.uwH3Qg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird.uwH3Qg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/controllers/v2.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/routes/v2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/services/passport.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/services/v2.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird.uwH3Qg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird.uwH3Qg/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/controllers/v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/controllers/v1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/models/domain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/models/hashtag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/models/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/models/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/controllers/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/controllers/index.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/controllers/v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/controllers/v1.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/passport/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/passport/kakao-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/passport/kakao-strategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/passport/local-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/passport/local-strategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-server/routes/v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/routes/v1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/auth/signin/_components/signin-auth-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/auth/signin/_components/signin-auth-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/v1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/passport/kakao-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/kakao-strategy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/passport/local-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/local-strategy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/services/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/auth-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/services/user-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/user-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/services/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/services/auth.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/services/index-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/services/index.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/services/v1-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/services/v1.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +80,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Jest.isLoggedIn.executor": "Coverage",
     "Node.js.user-service.js.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -100,11 +93,13 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/jin-wook/Desktop/practice/express-nodebird/server/node_modules/jest",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/jin-wook/Desktop/practice/express-nodebird/api-caller/node_modules/prettier",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.General",
+    "settings.editor.selected.configurable": "com.chylex.intellij.inspectionlens.settings.LensApplicationConfigurable",
     "settings.editor.splitter.proportion": "0.28004074",
+    "sql.codeStylePanel.last.previewDialect": "PostgreSQL",
     "ts.external.directory.path": "/Users/jin-wook/Desktop/practice/express-nodebird/client/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
@@ -126,6 +121,25 @@
       <recent name="$PROJECT_DIR$/frontend/src/app/actions/server" />
       <recent name="$PROJECT_DIR$/frontend/src/app/actions" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="isLoggedIn" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/middlewares/index.test.js" />
+      <test-names>
+        <test-name value="isLoggedIn" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.isLoggedIn" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -159,10 +173,14 @@
       <workItem from="1736094318437" duration="966000" />
       <workItem from="1736130751021" duration="291000" />
       <workItem from="1736131053691" duration="17597000" />
+      <workItem from="1736347583856" duration="5837000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/express_nodebird$isLoggedIn.info" NAME="isLoggedIn 커버리지 결과" MODIFIED="1736353837916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

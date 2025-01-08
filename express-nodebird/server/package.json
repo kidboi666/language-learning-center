@@ -3,8 +3,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "test": "jest",
+    "start": "nodemon app.js",
+    "coverage": "jest --coverage"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +26,7 @@
     "redis": "^4.7.0"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "nodemon": "^3.1.9",
     "prettier": "^3.4.2"
   }
