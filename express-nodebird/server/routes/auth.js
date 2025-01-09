@@ -6,7 +6,7 @@ const {
   login,
   checkSession,
   logout,
-} = require('../controllers/auth');
+} = require('../controllers/auth.controller');
 const { isNotLoggedIn, isLoggedIn } = require('../middlewares');
 
 router.patch('/:id', isLoggedIn, updateUser);

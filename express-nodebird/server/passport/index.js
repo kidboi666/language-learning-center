@@ -1,7 +1,7 @@
 const passport = require('passport');
 const local = require('./local-strategy');
 const kakao = require('./kakao-strategy');
-const passportService = require('../services/passport-service');
+const passportService = require('../services/passport.service');
 
 module.exports = () => {
   passport.serializeUser((user, done) => {

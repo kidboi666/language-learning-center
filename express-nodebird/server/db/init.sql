@@ -1,3 +1,30 @@
+DO
+$$
+    BEGIN
+        IF NOT EXISTS
+            (SELECT 1
+             FROM pg_type
+             WHERE typname = 'domain_type_enum')
+        THEN
+            CREATE TYPE DOMAIN_TYPE_ENUM AS ENUM ('free', 'premium');
+        END IF;
+    END
+$$;
+
+DO
+$$
+    BEGIN
+        IF NOT EXISTS
+            (SELECT 1
+             FROM pg_type
+             WHERE typname = 'provider_type_enum')
+        THEN
+            CREATE TYPE PROVIDER_TYPE_ENUM AS ENUM ('local', 'kakao');
+        END IF;
+    END
+$$;
+
+
 CREATE TABLE IF NOT EXISTS users
 (
     id         SERIAL PRIMARY KEY,

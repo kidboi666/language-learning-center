@@ -1,6 +1,6 @@
 const passport = require('passport');
 const KakaoStrategy = require('passport-kakao').Strategy;
-const passportService = require('../services/passport-service');
+const passportService = require('../services/passport.service');
 
 module.exports = () => {
   passport.use(

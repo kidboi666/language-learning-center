@@ -9,7 +9,7 @@ const passport = require('passport');
 const cors = require('cors');
 const authRouter = require('./routes/auth');
 const oauthRouter = require('./routes/oauth');
-const v1Router = require('./routes/v1');
+const postRouter = require('./routes/post');
 
 dotenv.config();
 
@@ -45,8 +45,8 @@ app.use(passport.initialize()); // req.user, req.login, req.isAuthenticate, req.
 app.use(passport.session());
 
 app.use('/auth', authRouter);
+app.use('/post', postRouter);
 app.use('/oauth', oauthRouter);
-app.use('/v1', v1Router);
 
 app.use((req, res, next) => {
   const error = new Error('Not Found');
@@ -63,6 +63,4 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(app.get('port'), async () => {
-  console.log(`Listening on port ${app.get('port')}`);
-});
+module.exports = app;

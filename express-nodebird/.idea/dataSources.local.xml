@@ -13,6 +13,7 @@
           <node kind="database">
             <name qname="nodebird" />
             <name qname="nodebird2" />
+            <name qname="test_nodebird" />
             <node kind="schema" qname="public" />
           </node>
         </introspection-scope>

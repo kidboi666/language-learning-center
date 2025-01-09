@@ -1,6 +1,6 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-const passportService = require('../services/passport-service');
+const passportService = require('../services/passport.service');
 const bcrypt = require('bcrypt');
 
 module.exports = () => {

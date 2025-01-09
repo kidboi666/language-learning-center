@@ -1,4 +1,4 @@
-const authService = require('../services/auth-service');
+const authService = require('../services/auth.service');
 const passport = require('passport');
 
 exports.login = (req, res, next) => {
@@ -8,7 +8,7 @@ exports.login = (req, res, next) => {
     }
 
     if (!user) {
-      return res.json(info);
+      return res.status(403).send(info.message);
     }
 
     return req.login(user, (loginError) => {
@@ -22,22 +22,29 @@ exports.login = (req, res, next) => {
 };
 
 exports.logout = async (req, res, next) => {
-  req.logout(() => {
-    res.redirect(process.env.CLIENT_URL);
-  });
+  if (req.isAuthenticated()) {
+    req.logout(() => {
+      res.status(204).send();
+    });
+  } else {
+    res.status(403).send('You are not logged in');
+  }
 };
 
 exports.createUser = async (req, res, next) => {
   const { email, password } = req.body;
 
   try {
-    await authService.createUser(req, res, next, {
-      email,
-      password,
-    });
-    res.send();
+    const isValid = await authService.checkEmailExists(email);
+    if (isValid) {
+      const error = new Error('Email already exists');
+      error.status = 403;
+      throw error;
+    }
+    await authService.createUser(email, password);
+    res.status(201).send();
   } catch (err) {
-    next(err);
+    return res.status(err.status).send(err.message);
   }
 };
 
