@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="admin@localhost">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.53">
+    <root id="1">
+      <ServerVersion>6.0.20</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin">
+      <Current>1</Current>
+      <LastIntrospectionLocalTimestamp>2025-01-10.06:30:33</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="3" parent="1" name="config"/>
+    <schema id="4" parent="1" name="local"/>
+    <schema id="5" parent="1" name="nodejs"/>
+    <table id="6" parent="2" name="chats"/>
+    <table id="7" parent="2" name="rooms"/>
+    <column id="8" parent="6" name="_id">
+      <Position>1</Position>
+      <StoredType>ObjectId|12s</StoredType>
+    </column>
+    <column id="9" parent="6" name="__v">
+      <Position>2</Position>
+      <StoredType>Int32|4s</StoredType>
+    </column>
+    <column id="10" parent="6" name="chat">
+      <Position>3</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="11" parent="6" name="createdAt">
+      <Position>4</Position>
+      <StoredType>ISODate|91s</StoredType>
+    </column>
+    <column id="12" parent="6" name="room">
+      <Position>5</Position>
+      <StoredType>ObjectId|12s</StoredType>
+    </column>
+    <column id="13" parent="6" name="user">
+      <Position>6</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <index id="14" parent="6" name="_id_">
+      <ColNames>_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <column id="15" parent="7" name="_id">
+      <Position>1</Position>
+      <StoredType>ObjectId|12s</StoredType>
+    </column>
+    <column id="16" parent="7" name="__v">
+      <Position>2</Position>
+      <StoredType>Int32|4s</StoredType>
+    </column>
+    <column id="17" parent="7" name="createdAt">
+      <Position>3</Position>
+      <StoredType>ISODate|91s</StoredType>
+    </column>
+    <column id="18" parent="7" name="max">
+      <Position>4</Position>
+      <StoredType>Int32|4s</StoredType>
+    </column>
+    <column id="19" parent="7" name="owner">
+      <Position>5</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="20" parent="7" name="password">
+      <Position>6</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="21" parent="7" name="title">
+      <Position>7</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <index id="22" parent="7" name="_id_">
+      <ColNames>_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+  </database-model>
+</dataSource>

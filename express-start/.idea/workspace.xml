@@ -5,31 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4284f5e8-0887-44db-86e4-a4dafa8cc3e3" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mongoose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/mongoose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/node_modules/cookie/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/node_modules/cookie/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/node_modules/cookie/SECURITY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/node_modules/cookie/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/node_modules/cookie/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/schemas/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/schemas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/schemas/room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/socket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/views/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/server/jest.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/server/routes/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/server/routes/post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-nodebird/server/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/controllers/auth.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/controllers/post.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/controllers/post.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/controllers/user.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/db/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/middlewares/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/middlewares/middlewares.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/middlewares/middlewares.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/passport/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/passport/kakao-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/passport/kakao-strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/passport/local-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/passport/local-strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/prettier.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/prettier.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/routes/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/routes/oauth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/routes/oauth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/routes/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/routes/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/auth.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/auth.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/auth.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/passport.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/passport.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/post.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/post.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/post.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/post.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/user.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,6 +169,7 @@
       <workItem from="1735616672005" duration="722000" />
       <workItem from="1735617425135" duration="9719000" />
       <workItem from="1735630336096" duration="1424000" />
+      <workItem from="1736481704797" duration="37000" />
     </task>
     <servers />
   </component>

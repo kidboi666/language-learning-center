@@ -5,40 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/server/controllers/post.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/auth.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/post.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/post.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/prettier.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/public/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/schemas/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/schemas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/schemas/room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/socket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/views/chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/views/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/views/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifchat/views/room.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/jest.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/types/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird.uwH3Qg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird.uwH3Qg/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird.uwH3Qg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird.uwH3Qg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird2.1zXpGw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71/storage_v2/_src_/database/nodebird2.1zXpGw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/auth.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/v1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/middlewares/middlewares.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/middlewares.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/auth.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/post.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/post.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middlewares/middlewares.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/middlewares.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/passport/kakao-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/kakao-strategy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/passport/local-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/local-strategy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/v1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/services/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/auth.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/services/passport-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/passport.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/services/post-service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/services/user-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/user.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/passport/kakao-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/kakao-strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/passport/local-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/local-strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prettier.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/prettier.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/oauth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/oauth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/services/auth.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/services/auth.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/auth.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/services/passport.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/passport.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/services/post.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/post.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/services/post.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/post.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-start/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +96,7 @@
 }</component>
   <component name="ProjectId" id="2qyPaud3NsfeDS8PraRvPc73v2u" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -89,6 +107,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Jest./auth.executor": "Run",
+    "Jest./post.POST /post.executor": "Run",
     "Jest./post.executor": "Run",
     "Jest.POST /auth/login (1).executor": "Run",
     "Jest.POST /auth/login.executor": "Run",
@@ -96,7 +115,8 @@
     "Jest.db test.POST /auth/signup.executor": "Run",
     "Jest.db test.POST /auth/signup.회원가입 했는데 또 하는 경우.executor": "Run",
     "Jest.db test.executor": "Run",
-    "Jest.isLoggedIn.executor": "Coverage",
+    "Jest.isLoggedIn.executor": "Run",
+    "Jest.isNotLoggedIn.executor": "Run",
     "Node.js.user-service.js.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -111,9 +131,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "/Users/jin-wook/Desktop/practice/express-nodebird/server/node_modules/jest",
     "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/jin-wook/Desktop/practice/express-nodebird/api-caller/node_modules/prettier",
+    "prettierjs.PrettierConfiguration.Package": "/Users/jin-wook/Desktop/practice/express-nodebird/api-server/node_modules/prettier",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "SQL Resolution Scopes",
+    "settings.editor.selected.configurable": "inlay.hints",
     "settings.editor.splitter.proportion": "0.28004074",
     "sql.codeStylePanel.last.previewDialect": "PostgreSQL",
     "ts.external.directory.path": "/Users/jin-wook/Desktop/practice/express-nodebird/client/node_modules/typescript/lib",
@@ -122,7 +142,8 @@
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "redis",
-      "postgresql"
+      "postgresql",
+      "mongo"
     ]
   }
 }]]></component>
@@ -138,7 +159,7 @@
       <recent name="$PROJECT_DIR$/frontend/src/app/actions" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest./post">
+  <component name="RunManager" selected="Jest.isLoggedIn">
     <configuration name="/auth" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
@@ -163,52 +184,50 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="db test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="/post.POST /post" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/server" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/server/services/auth.test.js" />
+      <test-file value="$PROJECT_DIR$/server/services/post.test.js" />
       <test-names>
-        <test-name value="db test" />
+        <test-name value="/post" />
+        <test-name value="POST /post" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="db test.POST /auth/signup" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="isLoggedIn" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/server" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/server/services/auth.test.js" />
+      <test-file value="$PROJECT_DIR$/server/middlewares/middlewares.test.ts" />
       <test-names>
-        <test-name value="db test" />
-        <test-name value="POST /auth/signup" />
+        <test-name value="isLoggedIn" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="db test.POST /auth/signup.회원가입 했는데 또 하는 경우" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="isNotLoggedIn" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/server" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/server/services/auth.test.js" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/middlewares/middlewares.test.ts" />
       <test-names>
-        <test-name value="db test" />
-        <test-name value="POST /auth/signup" />
-        <test-name value="회원가입 했는데 또 하는 경우" />
+        <test-name value="isNotLoggedIn" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.isLoggedIn" />
+        <item itemvalue="Jest.isNotLoggedIn" />
+        <item itemvalue="Jest./post.POST /post" />
         <item itemvalue="Jest./post" />
         <item itemvalue="Jest./auth" />
-        <item itemvalue="Jest.db test" />
-        <item itemvalue="Jest.db test.POST /auth/signup.회원가입 했는데 또 하는 경우" />
-        <item itemvalue="Jest.db test.POST /auth/signup" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +264,7 @@
       <workItem from="1736130751021" duration="291000" />
       <workItem from="1736131053691" duration="17597000" />
       <workItem from="1736347583856" duration="7004000" />
-      <workItem from="1736383988708" duration="18169000" />
+      <workItem from="1736383988708" duration="43174000" />
     </task>
     <servers />
   </component>

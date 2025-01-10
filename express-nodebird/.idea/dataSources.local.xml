@@ -12,10 +12,20 @@
         <introspection-scope>
           <node kind="database">
             <name qname="nodebird" />
-            <name qname="nodebird2" />
             <name qname="test_nodebird" />
             <node kind="schema" qname="public" />
           </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="admin@localhost" uuid="2222002d-a6d9-4b85-982e-21112f589812">
+      <database-info product="Mongo DB" version="6.0.20" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.20" dbms="MONGO" exact-version="6.0.20" exact-driver-version="1.20" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jin-wook</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
