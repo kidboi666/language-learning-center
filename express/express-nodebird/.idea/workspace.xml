@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/passport/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kidboi666&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kidboi666/practice.git&quot;,
+    &quot;accountId&quot;: &quot;77d08c4c-3656-49c7-8d6b-e4b673dbf724&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2qyPaud3NsfeDS8PraRvPc73v2u" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Jest./auth.executor&quot;: &quot;Run&quot;,
+    &quot;Jest./post.POST /post.executor&quot;: &quot;Run&quot;,
+    &quot;Jest./post.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.POST /auth/login (1).executor&quot;: &quot;Run&quot;,
+    &quot;Jest.POST /auth/login.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.POST /auth/signup.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.db test.POST /auth/signup.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.db test.POST /auth/signup.회원가입 했는데 또 하는 경우.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.db test.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.isLoggedIn.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.isNotLoggedIn.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.user-service.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.17.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.17.11&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/api-server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/server/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/api-server/node_modules/prettier&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28004074&quot;,
+    &quot;sql.codeStylePanel.last.previewDialect&quot;: &quot;PostgreSQL&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;,
+      &quot;postgresql&quot;,
+      &quot;mongo&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api-server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api-server/controllers" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/api/auth/signin" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/api" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/actions/server" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/actions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.isLoggedIn">
+    <configuration name="/auth" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/services/auth.test.js" />
+      <test-names>
+        <test-name value="/auth" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="/post" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/services/post.test.js" />
+      <test-names>
+        <test-name value="/post" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="/post.POST /post" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/services/post.test.js" />
+      <test-names>
+        <test-name value="/post" />
+        <test-name value="POST /post" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="isLoggedIn" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/middlewares/middlewares.test.ts" />
+      <test-names>
+        <test-name value="isLoggedIn" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="isNotLoggedIn" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/server/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/server" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/server/middlewares/middlewares.test.ts" />
+      <test-names>
+        <test-name value="isNotLoggedIn" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.isLoggedIn" />
+        <item itemvalue="Jest.isNotLoggedIn" />
+        <item itemvalue="Jest./post.POST /post" />
+        <item itemvalue="Jest./post" />
+        <item itemvalue="Jest./auth" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="" />
+      <created>1735631908876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735631908876</updated>
+      <workItem from="1735631910047" duration="14002000" />
+      <workItem from="1735652511556" duration="1139000" />
+      <workItem from="1735653758344" duration="111000" />
+      <workItem from="1735653870742" duration="47000" />
+      <workItem from="1735653918869" duration="5984000" />
+      <workItem from="1735697876245" duration="23376000" />
+      <workItem from="1735783142202" duration="36658000" />
+      <workItem from="1735825488438" duration="167000" />
+      <workItem from="1735825671403" duration="35786000" />
+      <workItem from="1735906726282" duration="13411000" />
+      <workItem from="1735970979237" duration="4200000" />
+      <workItem from="1736007474763" duration="876000" />
+      <workItem from="1736055885653" duration="3924000" />
+      <workItem from="1736091861659" duration="662000" />
+      <workItem from="1736094318437" duration="966000" />
+      <workItem from="1736130751021" duration="291000" />
+      <workItem from="1736131053691" duration="17597000" />
+      <workItem from="1736347583856" duration="7004000" />
+      <workItem from="1736383988708" duration="45962000" />
+      <workItem from="1736515092412" duration="110000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/express_nodebird$isLoggedIn.info" NAME="isLoggedIn 커버리지 결과" MODIFIED="1736353837916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

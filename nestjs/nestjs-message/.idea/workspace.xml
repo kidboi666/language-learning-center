@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03d345e3-b911-455f-9dfa-5c6a790e37df" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages/dto/create-message.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages/messages.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages/messages.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages/messages.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages/messages.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nestjs-scratch/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/passport/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/passport/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EndpointsView">
+    <option name="showSidePanel" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kidboi666"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kidboi666/practice.git",
+    "accountId": "77d08c4c-3656-49c7-8d6b-e4b673dbf724"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2rSbXRuz8X0c9X5aowgLnSHaDrX" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP 요청.request | Create a new message.executor": "Run",
+    "HTTP 요청.request | Get a particular message.executor": "Run",
+    "HTTP 요청.request | List all messages.executor": "Run",
+    "HTTP 요청.request 내 전체.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jin-wook/Desktop/practice/nestjs-message",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/jin-wook/Desktop/practice/nestjs-message/node_modules/prettier",
+    "settings.editor.selected.configurable": "swagger",
+    "ts.external.directory.path": "/Users/jin-wook/Desktop/practice/nestjs-message/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/messages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="HTTP 요청.request | Create a new message">
+    <configuration name="request | Create a new message" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" executionIdentifier="Create a new message" index="2" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="request | Get a particular message" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" executionIdentifier="Get a particular message" index="3" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="request | List all messages" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" executionIdentifier="List all messages" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="request 내 전체" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/request.http">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 요청.request | Create a new message" />
+        <item itemvalue="HTTP 요청.request 내 전체" />
+        <item itemvalue="HTTP 요청.request | Get a particular message" />
+        <item itemvalue="HTTP 요청.request | List all messages" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="03d345e3-b911-455f-9dfa-5c6a790e37df" name="변경" comment="" />
+      <created>1736555463507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736555463507</updated>
+      <workItem from="1736555465230" duration="10471000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
