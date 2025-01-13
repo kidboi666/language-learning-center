@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daadad5e-9042-4bd6-b3bd-10bd709317bd" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/passport/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/passport/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/reports/report.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/users/dto/create-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/users/dto/update.user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/users/user.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../nestjs/mycv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../nestjs/mycv/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/app/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/app/app.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/app/app.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/app/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/reports/reports.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/reports/reports.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/reports/reports.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/reports/reports.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/reports/reports.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/reports/reports.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/users/users.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/users/users.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nestjs/mycv/src/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../nestjs/mycv/src/users/users.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -51,54 +67,53 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Jest./auth.executor&quot;: &quot;Run&quot;,
-    &quot;Jest./post.POST /post.executor&quot;: &quot;Run&quot;,
-    &quot;Jest./post.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.POST /auth/login (1).executor&quot;: &quot;Run&quot;,
-    &quot;Jest.POST /auth/login.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.POST /auth/signup.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.db test.POST /auth/signup.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.db test.POST /auth/signup.회원가입 했는데 또 하는 경우.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.db test.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.isLoggedIn.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.isNotLoggedIn.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.user-service.js.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.17.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.17.11&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/api-server&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/server/node_modules/jest&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/api-server/node_modules/prettier&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28004074&quot;,
-    &quot;sql.codeStylePanel.last.previewDialect&quot;: &quot;PostgreSQL&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/jin-wook/Desktop/practice/express-nodebird/client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Jest./auth.executor": "Run",
+    "Jest./post.POST /post.executor": "Run",
+    "Jest./post.executor": "Run",
+    "Jest.POST /auth/login (1).executor": "Run",
+    "Jest.POST /auth/login.executor": "Run",
+    "Jest.POST /auth/signup.executor": "Run",
+    "Jest.db test.POST /auth/signup.executor": "Run",
+    "Jest.db test.POST /auth/signup.회원가입 했는데 또 하는 경우.executor": "Run",
+    "Jest.db test.executor": "Run",
+    "Jest.isLoggedIn.executor": "Run",
+    "Jest.isNotLoggedIn.executor": "Run",
+    "Node.js.user-service.js.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "20.17.0",
+    "javascript.nodejs.core.library.typings.version": "20.17.11",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "/Users/jin-wook/Desktop/practice/express-nodebird/api-server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/jin-wook/Desktop/practice/express-nodebird/server/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/jin-wook/Desktop/practice/express/express-nodebird/server/node_modules/prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.splitter.proportion": "0.28004074",
+    "sql.codeStylePanel.last.previewDialect": "PostgreSQL",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;redis&quot;,
-      &quot;postgresql&quot;,
-      &quot;mongo&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis",
+      "postgresql",
+      "mongo"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api-server" />
@@ -218,6 +233,8 @@
       <workItem from="1736347583856" duration="7004000" />
       <workItem from="1736383988708" duration="45962000" />
       <workItem from="1736515092412" duration="110000" />
+      <workItem from="1736649914819" duration="310000" />
+      <workItem from="1736650340562" duration="262000" />
     </task>
     <servers />
   </component>
