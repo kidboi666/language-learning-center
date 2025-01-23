@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    ul
+      each data in result
+          li
+              strong 제목: #{data.title}
+              |  - 링크:
+              a(href=data.link target="_blank") #{data.link}
+              |  - 내용: #{data.snippet}
+    div
+        if start > 1
+          a(href=`/?start=${start - 10}`) 이전 페이지
+        a(href=`/?start=${nextStart}`) 다음 페이지
