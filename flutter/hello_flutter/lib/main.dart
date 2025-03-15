@@ -86,13 +86,62 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
-      bottomNavigationBar: Row(
-        children: [
-          IconButton(onPressed: _incrementCounter, icon: Icon(Icons.home)),
-          IconButton(onPressed: _incrementCounter, icon: Icon(Icons.home)),
-          IconButton(onPressed: _incrementCounter, icon: Icon(Icons.home)),
-        ],
+      bottomNavigationBar: BottomAppBar(
+        height: 60,
+        elevation: 10,
+        shape: const CircularNotchedRectangle(),
+        child: SizedBox(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Flexible(
+                flex: 1,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    IconButton(
+                      onPressed: _incrementCounter,
+                      icon: Center(child: Icon(Icons.home)),
+                      padding: EdgeInsets.symmetric(horizontal: 20),
+                    ),
+                    IconButton(
+                      onPressed: _incrementCounter,
+                      icon: Icon(Icons.home),
+                      padding: EdgeInsets.symmetric(horizontal: 20),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(width: 60),
+              Flexible(
+                flex: 1,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    IconButton(
+                      onPressed: _incrementCounter,
+                      icon: Icon(Icons.home),
+                      padding: EdgeInsets.symmetric(horizontal: 20),
+                    ),
+                    IconButton(
+                      onPressed: _incrementCounter,
+                      icon: Icon(Icons.home),
+                      padding: EdgeInsets.symmetric(horizontal: 20),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
+        onPressed: _incrementCounter,
+        child: const Icon(Icons.add),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }
