@@ -13,12 +13,13 @@
         android:theme="@style/Theme.PracticeAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".WidgetActivity"
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" /> <!-- 해당 액티비티를 앱이 구동될 때 처음으로 실행되는 메인 액티비티로 설정하는 코드 -->
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER" /> <!-- 안드로이드 홈에 앱의 아이콘 정보를 전달하는 코드 -->
             </intent-filter>
         </activity>
     </application>

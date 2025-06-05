@@ -6,27 +6,27 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="300dp"/>
-    <Button
-        android:id="@+id/shortmsg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Short Message"/>
+        android:layout_height="50dp" />
 
     <Button
-        android:id="@+id/longmsg"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Long Message" />
+        android:onClick="showFragment"
+        android:text="프래그먼트1" />
+
     <Button
-        android:id="@+id/beep1"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SoundPool"/>
-    <Button
-        android:id="@+id/beep2"
+        android:onClick="showFragment"
+        android:text="프래그먼트2" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="AudioManager"/>
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" />
 
 </LinearLayout>
