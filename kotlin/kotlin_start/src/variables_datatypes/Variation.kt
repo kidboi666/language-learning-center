@@ -1,3 +1,5 @@
+package variables_datatypes
+
 fun main() {
     val number = 10
     var language = "Kotlin"

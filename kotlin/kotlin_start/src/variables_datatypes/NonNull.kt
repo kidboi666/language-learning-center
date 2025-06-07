@@ -1,3 +1,5 @@
+package variables_datatypes
+
 fun main() {
     var str1: String? = "Hello Kotlin"
     str1 = null
