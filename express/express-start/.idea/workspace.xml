@@ -1,58 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4284f5e8-0887-44db-86e4-a4dafa8cc3e3" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/schemas/chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/schemas/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/schemas/room.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/socket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/views/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/gifchat/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/server/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/server/routes/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/server/routes/post.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../express-nodebird/server/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/dataSources/ac9c2ec9-e8f6-436e-ad82-a7f40dd08a71.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/controllers/auth.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/controllers/post.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/controllers/post.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/controllers/user.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/db/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/middlewares/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/middlewares/middlewares.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/middlewares/middlewares.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/passport/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/passport/kakao-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/passport/kakao-strategy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/passport/local-strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/passport/local-strategy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/prettier.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/prettier.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/routes/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/routes/oauth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/routes/oauth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/routes/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/routes/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/auth.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/auth.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/auth.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/passport.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/passport.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/post.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/post.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/post.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/post.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../express-nodebird/server/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-nodebird/server/services/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-petclinic" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-petclinic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/appInsightsSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/java/com/example/myapplication/DrawActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/java/com/example/myapplication/EventBubbleActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/java/com/example/myapplication/EventListenerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/java/com/example/myapplication/KeyboardActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/java/com/example/myapplication/TouchEventActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/java/com/example/myapplication/WidgetActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/layout/draw_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/layout/widget_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/values-land/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/values-v23/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/values-w1240dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/values-w600dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/MyApplication/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/appInsightsSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/androidTest/java/com/example/practiceandroid/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/DrawActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/EventBubbleActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/EventListenerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/FragmentFirst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/FragmentSecond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/KeyboardActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/OrientationActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/RefactorWidgetActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/TimerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/TouchEventActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/java/com/example/practiceandroid/WidgetActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/layout/draw_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/layout/fragment_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/layout/orientation_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/layout/timer_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/layout/widget_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/app/src/test/java/com/example/practiceandroid/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/PracticeAndroid/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/basic-android-kotlin-compose-training-unscramble" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/codelab-android-compose" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +153,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -89,31 +179,38 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.17.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.17.10&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "20.17.0",
+    "javascript.nodejs.core.library.typings.version": "20.17.10",
+    "last_opened_file_path": "/Users/jin-wook/Desktop/language-learning-center/express/express-start",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/schemas" />
@@ -133,11 +230,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
