@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.MutatePriority
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -12,12 +13,15 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -54,6 +58,7 @@ fun UnitConverter(modifier: Modifier = Modifier) {
     var outputUnit by remember { mutableStateOf("") }
     var inputExpanded by remember { mutableStateOf(false) }
     var outputExpanded by remember { mutableStateOf(false) }
+    var showDialog by remember { mutableStateOf(false) }
 
     val units = listOf("Centimeters", "Meters", "Feet", "Millimeters")
 
@@ -82,24 +87,33 @@ fun UnitConverter(modifier: Modifier = Modifier) {
     }
 
     Column(
-        modifier = modifier,
+        modifier = modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Unit Converter")
-        Spacer(modifier = Modifier.padding(16.dp))
+        Text(
+            "Unit Converter~~",
+            style = MaterialTheme.typography.headlineSmall.copy(
+                color = MaterialTheme.colorScheme.primary,
+            )
+        )
+        Spacer(modifier = Modifier.height(16.dp))
         OutlinedTextField(
             value = inputValue,
             onValueChange = { inputValue = it },
             label = { Text("Input") })
         Spacer(modifier = Modifier.height(16.dp))
-        Row {
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
             Box {
                 Button(onClick = { inputExpanded = true }) {
                     Text("Select")
                     Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
                 }
-                DropdownMenu(expanded = inputExpanded, onDismissRequest = { inputExpanded = false }) {
+                DropdownMenu(
+                    expanded = inputExpanded,
+                    onDismissRequest = { inputExpanded = false }) {
                     units.forEach { unit ->
                         DropdownMenuItem(text = { Text(unit) }, onClick = {
                             inputUnit = unit
@@ -110,11 +124,13 @@ fun UnitConverter(modifier: Modifier = Modifier) {
             }
             Spacer(modifier = Modifier.padding(8.dp))
             Box {
-                Button(onClick = {}) {
+                Button(onClick = { outputExpanded = true }) {
                     Text("To $outputUnit")
                     Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
                 }
-                DropdownMenu(expanded = outputExpanded, onDismissRequest = { outputExpanded = false }) {
+                DropdownMenu(
+                    expanded = outputExpanded,
+                    onDismissRequest = { outputExpanded = false }) {
                     units.forEach { unit ->
                         DropdownMenuItem(text = { Text(unit) }, onClick = {
                             outputUnit = unit
@@ -125,8 +141,31 @@ fun UnitConverter(modifier: Modifier = Modifier) {
             }
         }
         Spacer(modifier = Modifier.height(16.dp))
+        Button(onClick = { showDialog = true }) {
+            Text("Show AlertDialog")
+        }
         Text("Result:")
+        Column {
+            LazyColumn {
+                items(5) {
+                    Text("Result $it")
+                }
+            }
+        }
     }
+    if (showDialog) {
+        AlertDialog(
+            onDismissRequest = { showDialog = false },
+            title = { Text("Title") },
+            text = { Text("This is an alert dialog.") },
+            confirmButton = {
+                Button(onClick = { showDialog = false }) {
+                    Text("Confirm")
+                }
+            }
+        )
+    }
+
 }
 
 @Preview(showBackground = true)
