@@ -1,75 +1,65 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(WidgetDemo());
+class Todo {
+  final String title;
+  final String description;
 
-class WidgetDemo extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo App',
-      initialRoute: '/page1',
-      routes: {
-        '/page1': (context) => FirstPage(),
-        '/page2': (context) => SecondPage(data: '(request)'),
-      },
-    );
-  }
+  const Todo(this.title, this.description);
 }
 
-class FirstPage extends StatefulWidget {
-  @override
-  State<FirstPage> createState() => _FirstPageState();
+void main() {
+  runApp(
+    MaterialApp(
+      home: TodoScreen(
+        todos: List.generate(
+          20,
+          (i) => Todo('Todo $i', 'A Description of what needs to be done for Todo $i'),
+        ),
+      ),
+    ),
+  );
 }
 
-class _FirstPageState extends State<FirstPage> {
-  var result;
+class TodoScreen extends StatelessWidget {
+  final List<Todo> todos;
+
+  const TodoScreen({super.key, required this.todos});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('First Page')),
-      body: Column(
-        children: <Widget>[
-          Center(
-            child: ElevatedButton(
-              onPressed: () async {
-                var newResult = await Navigator.pushNamed(context, '/page2');
-                setState(() {
-                  result = newResult;
-                });
-              },
-              child: Text('Go to next Page'),
-            ),
-          ),
-          Text('$result'),
-        ],
+      appBar: AppBar(title: const Text('Todos')),
+      body: ListView.builder(
+        itemCount: todos.length,
+        itemBuilder: (context, index) {
+          return ListTile(
+            title: Text(todos[index].title),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => DetailScreen(todo: todos[index])),
+              );
+            },
+          );
+        },
       ),
     );
   }
 }
 
-class SecondPage extends StatelessWidget {
-  final String data;
+class DetailScreen extends StatelessWidget {
+  // In the constructor, require a Todo.
+  const DetailScreen({super.key, required this.todo});
 
-  SecondPage({required this.data});
+  // Declare a field that holds the Todo.
+  final Todo todo;
 
   @override
   Widget build(BuildContext context) {
+    // Use the Todo to create the UI.
     return Scaffold(
-      appBar: AppBar(title: Text('second page')),
-      body: Column(
-        children: [
-          Center(
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.pop(context, '(result)');
-              },
-              child: Text('go to previous page'),
-            ),
-          ),
-          Text('$data'),
-        ],
-      ),
+      appBar: AppBar(title: Text(todo.title)),
+      body: Padding(padding: const EdgeInsets.all(16), child: Text(todo.description)),
     );
   }
 }

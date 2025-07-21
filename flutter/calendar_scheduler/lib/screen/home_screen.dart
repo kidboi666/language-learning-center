@@ -1,10 +1,6 @@
-import 'package:calendar_scheduler/component/main_calendar.dart';
 import 'package:calendar_scheduler/component/schedule_bottom_sheet.dart';
-import 'package:calendar_scheduler/component/schedule_card.dart';
 import 'package:calendar_scheduler/const/colors.dart';
 import 'package:flutter/material.dart';
-
-import '../component/today_banner.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -41,16 +37,26 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Icon(Icons.add),
       ),
       body: SafeArea(
-        child: Column(
-          children: [
-            MainCalendar(
-              selectedDate: selectedDate,
-              onDaySelected: onDaySelected,
-            ),
-            SizedBox(height: 8),
-            TodayBanner(selectedDate: selectedDate, count: 0),
-            ScheduleCard(startTime: 12, endTime: 14, content: '프로그래밍 공부'),
-          ],
+        child: SingleChildScrollView(
+          child:
+              // MainCalendar(
+              //   selectedDate: selectedDate,
+              //   onDaySelected: onDaySelected,
+              // ),
+              // SizedBox(height: 8),
+              // TodayBanner(selectedDate: selectedDate, count: 0),
+              // ScheduleCard(startTime: 12, endTime: 14, content: '프로그래밍 공부'),
+              ListView(
+                padding: EdgeInsets.all(8),
+                children: [
+                  ListTile(
+                    title: Text('프로그래밍 공부'),
+                    subtitle: Text('12:00 ~ 14:00'),
+                    leading: CircleAvatar(child: Icon(Icons.contact_emergency)),
+                    trailing: Icon(Icons.more_vert),
+                  ),
+                ],
+              ),
         ),
       ),
     );

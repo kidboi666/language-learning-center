@@ -41,47 +41,43 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(widget.title)),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-        child: Center(
-          child: Column(
+      body: SafeArea(
+        child: Padding(
+          padding: EdgeInsets.all(8),
+          child: ListView(
             children: <Widget>[
-              const Text('You have pushed the button this many times:'),
-              Text(
-                '$_counter',
-                style: Theme.of(context).textTheme.headlineMedium,
-              ),
-              TextButton(
-                onPressed: _incrementCounter,
-                style: TextButton.styleFrom(
-                  foregroundColor: Colors.red,
-                  backgroundColor: Colors.red.shade100,
-                ),
-                child: Text('Plus'),
-              ),
-              OutlinedButton(
-                onPressed: _incrementCounter,
-                style: OutlinedButton.styleFrom(
-                  foregroundColor: Colors.white,
-                  backgroundColor: Colors.black,
-                ),
-                child: Text('Plus'),
-              ),
-              ElevatedButton(
-                onPressed: _incrementCounter,
-                style: ElevatedButton.styleFrom(
-                  elevation: 10,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
+              Column(
+                spacing: 12,
+                children: [
+                  const Text('You have pushed the button this many times:'),
+                  Text(
+                    '$_counter',
+                    style: Theme.of(context).textTheme.headlineMedium,
                   ),
-                  foregroundColor: Colors.white,
-                  shadowColor: Colors.black54,
-                  backgroundColor: Colors.black,
-                ),
-                child: Text('Plus'),
+                  ElevatedButton(
+                    onPressed: _incrementCounter,
+                    style: ElevatedButton.styleFrom(
+                      elevation: 10,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      foregroundColor: Colors.white,
+                      shadowColor: Colors.black54,
+                      backgroundColor: Colors.black,
+                    ),
+                    child: Text('Plus'),
+                  ),
+                ],
               ),
-              IconButton(onPressed: _incrementCounter, icon: Icon(Icons.home)),
+              Card(
+                elevation: 10,
+                child: ListTile(
+                  leading: Icon(Icons.home),
+                  title: Text('Home'),
+                  onTap: _incrementCounter,
+                )
+
+              )
             ],
           ),
         ),
