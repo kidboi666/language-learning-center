@@ -15,25 +15,22 @@ import com.example.navigationdemo.NavRoutes
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Home(navController: NavHostController) {
+
+    fun onClick(route: String) {
+        navController.navigate(route)
+    }
+
     Box(
         modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center
     ) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            Button(onClick = {
-                navController.navigate(NavRoutes.CompositionLocal.route)
-            }) { Text("CompositionLocal") }
-            Button(onClick = {
-                navController.navigate(NavRoutes.ModifierUse.route)
-            }) { Text("ModifierUse") }
-            Button(onClick = {
-                navController.navigate(NavRoutes.CascadeLayout.route)
-            }) { Text("CascadeLayout") }
-            Button(onClick = {
-                navController.navigate(NavRoutes.RowColumn.route)
-            }) { Text("RowColumn") }
-            Button(onClick = {
-                navController.navigate(NavRoutes.BoxComposable.route)
-            }) { Text("BoxComposable") }
+            Button({ onClick(NavRoutes.CompositionLocal.route) }) { Text("CompositionLocal") }
+            Button({ onClick(NavRoutes.ModifierUse.route) }) { Text("ModifierUse") }
+            Button({ onClick(NavRoutes.CascadeLayout.route) }) { Text("CascadeLayout") }
+            Button({ onClick(NavRoutes.RowColumn.route) }) { Text("RowColumn") }
+            Button({ onClick(NavRoutes.BoxComposable.route) }) { Text("BoxComposable") }
+            Button({ onClick(NavRoutes.CustomLayout.route) }) { Text("CustomLayout") }
+            Button({ onClick(NavRoutes.ListComposable.route) }) { Text("ListComposable") }
         }
     }
 }

@@ -8,4 +8,6 @@ sealed class NavRoutes(val route: String) {
     object CascadeLayout : NavRoutes("cascadeLayout")
     object RowColumn : NavRoutes("rowColumn")
     object BoxComposable : NavRoutes("boxComposable")
+    object CustomLayout : NavRoutes("customLayout")
+    object ListComposable : NavRoutes("listComposable")
 }

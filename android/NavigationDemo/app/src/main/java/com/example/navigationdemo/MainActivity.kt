@@ -15,7 +15,9 @@ import androidx.navigation.compose.rememberNavController
 import com.example.navigationdemo.screens.BoxComposable
 import com.example.navigationdemo.screens.CascadeLayout
 import com.example.navigationdemo.screens.CompositionLocal
+import com.example.navigationdemo.screens.CustomLayout
 import com.example.navigationdemo.screens.Home
+import com.example.navigationdemo.screens.ListComposable
 import com.example.navigationdemo.screens.ModifierUse
 import com.example.navigationdemo.screens.RowColumn
 import com.example.navigationdemo.ui.AppScaffold
@@ -48,6 +50,8 @@ fun MainScreen() {
             composable(NavRoutes.CascadeLayout.route) { CascadeLayout() }
             composable(NavRoutes.RowColumn.route) { RowColumn() }
             composable(NavRoutes.BoxComposable.route) { BoxComposable() }
+            composable(NavRoutes.CustomLayout.route) { CustomLayout() }
+            composable(NavRoutes.ListComposable.route) { ListComposable() }
         }
     }
 }
