@@ -31,6 +31,8 @@ fun Home(navController: NavHostController) {
             Button({ onClick(NavRoutes.BoxComposable.route) }) { Text("BoxComposable") }
             Button({ onClick(NavRoutes.CustomLayout.route) }) { Text("CustomLayout") }
             Button({ onClick(NavRoutes.ListComposable.route) }) { Text("ListComposable") }
+            Button({ onClick(NavRoutes.AnimateVisibility.route) }) { Text("AnimateVisibility") }
+            Button({ onClick(NavRoutes.AnimateState.route) }) { Text("AnimateState") }
         }
     }
 }

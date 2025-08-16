@@ -10,4 +10,6 @@ sealed class NavRoutes(val route: String) {
     object BoxComposable : NavRoutes("boxComposable")
     object CustomLayout : NavRoutes("customLayout")
     object ListComposable : NavRoutes("listComposable")
+    object AnimateVisibility : NavRoutes("animateVisibility")
+    object AnimateState : NavRoutes("animateState")
 }

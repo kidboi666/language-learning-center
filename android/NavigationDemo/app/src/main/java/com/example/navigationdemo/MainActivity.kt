@@ -12,6 +12,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.navigationdemo.screens.AnimateState
+import com.example.navigationdemo.screens.AnimateVisibility
 import com.example.navigationdemo.screens.BoxComposable
 import com.example.navigationdemo.screens.CascadeLayout
 import com.example.navigationdemo.screens.CompositionLocal
@@ -24,9 +26,7 @@ import com.example.navigationdemo.ui.AppScaffold
 import com.example.navigationdemo.ui.theme.NavigationDemoTheme
 
 class MainActivity : ComponentActivity() {
-    private var itemArray: Array<String>? = null
     override fun onCreate(savedInstanceState: Bundle?) {
-        itemArray = resources.getStringArray(R.array.car_array)
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
@@ -54,6 +54,8 @@ fun MainScreen() {
             composable(NavRoutes.BoxComposable.route) { BoxComposable() }
             composable(NavRoutes.CustomLayout.route) { CustomLayout() }
             composable(NavRoutes.ListComposable.route) { ListComposable() }
+            composable(NavRoutes.AnimateVisibility.route) { AnimateVisibility() }
+            composable(NavRoutes.AnimateState.route) { AnimateState() }
         }
     }
 }
