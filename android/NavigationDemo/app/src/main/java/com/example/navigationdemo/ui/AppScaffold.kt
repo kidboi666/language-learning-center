@@ -26,30 +26,30 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AppScaffold(
-  navController: NavHostController,
-  modifier: Modifier = Modifier,
-  child: @Composable () -> Unit
+    navController: NavHostController,
+    modifier: Modifier = Modifier,
+    child: @Composable () -> Unit
 ) {
-  val navBackStackEntry by navController.currentBackStackEntryAsState()
-  val currentRoute = navBackStackEntry?.destination?.route ?: ""
-  Scaffold(
-    topBar = {
-      TopAppBar(
-        title = { Text(currentRoute) },
-        navigationIcon = if (navController.previousBackStackEntry != null) {
-          {
-            IconButton(onClick = { navController.popBackStack() }) {
-              Icon(imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "")
-            }
-          }
-        } else {
-          {}
+    val navBackStackEntry by navController.currentBackStackEntryAsState()
+    val currentRoute = navBackStackEntry?.destination?.route ?: ""
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text(currentRoute) },
+                navigationIcon = {
+                    if (navController.previousBackStackEntry != null) {
+                        IconButton(onClick = { navController.popBackStack() }) {
+                            Icon(imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "")
+                        }
+                    } else {
+
+                    }
+                }
+            )
         }
-      )
+    ) { paddingValues ->
+        Box(modifier.padding(paddingValues)) {
+            child()
+        }
     }
-  ) { paddingValues ->
-    Box(modifier.padding(paddingValues)) {
-      child()
-    }
-  }
 }

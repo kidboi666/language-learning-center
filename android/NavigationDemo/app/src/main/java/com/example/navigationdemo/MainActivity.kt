@@ -24,7 +24,9 @@ import com.example.navigationdemo.ui.AppScaffold
 import com.example.navigationdemo.ui.theme.NavigationDemoTheme
 
 class MainActivity : ComponentActivity() {
+    private var itemArray: Array<String>? = null
     override fun onCreate(savedInstanceState: Bundle?) {
+        itemArray = resources.getStringArray(R.array.car_array)
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
