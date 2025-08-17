@@ -4,7 +4,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Button
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -12,10 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import com.example.navigationdemo.NavRoutes
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun Home(navController: NavHostController) {
-
+fun MyComposable(navController: NavHostController) {
     fun onClick(route: String) {
         navController.navigate(route)
     }

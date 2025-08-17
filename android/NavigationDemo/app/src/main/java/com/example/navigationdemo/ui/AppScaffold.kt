@@ -15,6 +15,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.example.navigationdemo.BottomNavigationBar
 
 /**
  * A scaffold composable that provides a top app bar with a back button and displays the current
@@ -26,9 +27,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AppScaffold(
-    navController: NavHostController,
-    modifier: Modifier = Modifier,
-    child: @Composable () -> Unit
+    navController: NavHostController, modifier: Modifier = Modifier, child: @Composable () -> Unit
 ) {
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route ?: ""
@@ -39,15 +38,17 @@ fun AppScaffold(
                 navigationIcon = {
                     if (navController.previousBackStackEntry != null) {
                         IconButton(onClick = { navController.popBackStack() }) {
-                            Icon(imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "")
+                            Icon(
+                                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                                contentDescription = ""
+                            )
                         }
                     } else {
-
+                        null
                     }
-                }
-            )
-        }
-    ) { paddingValues ->
+                })
+        },
+        bottomBar = { BottomNavigationBar(navController = navController) }) { paddingValues ->
         Box(modifier.padding(paddingValues)) {
             child()
         }

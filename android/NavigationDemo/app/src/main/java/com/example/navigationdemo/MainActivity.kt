@@ -18,9 +18,10 @@ import com.example.navigationdemo.screens.BoxComposable
 import com.example.navigationdemo.screens.CascadeLayout
 import com.example.navigationdemo.screens.CompositionLocal
 import com.example.navigationdemo.screens.CustomLayout
-import com.example.navigationdemo.screens.Home
 import com.example.navigationdemo.screens.ListComposable
 import com.example.navigationdemo.screens.ModifierUse
+import com.example.navigationdemo.screens.MyComposable
+import com.example.navigationdemo.screens.Practice
 import com.example.navigationdemo.screens.RowColumn
 import com.example.navigationdemo.ui.AppScaffold
 import com.example.navigationdemo.ui.theme.NavigationDemoTheme
@@ -45,8 +46,9 @@ class MainActivity : ComponentActivity() {
 fun MainScreen() {
     val navController = rememberNavController()
     AppScaffold(navController = navController) {
-        NavHost(navController = navController, startDestination = NavRoutes.Home.route) {
-            composable(NavRoutes.Home.route) { Home(navController = navController) }
+        NavHost(navController = navController, startDestination = NavRoutes.Practice.route) {
+            composable(NavRoutes.Practice.route) { Practice() }
+            composable(NavRoutes.Composable.route) { MyComposable(navController = navController) }
             composable(NavRoutes.ModifierUse.route) { ModifierUse() }
             composable(NavRoutes.CompositionLocal.route) { CompositionLocal() }
             composable(NavRoutes.CascadeLayout.route) { CascadeLayout() }
