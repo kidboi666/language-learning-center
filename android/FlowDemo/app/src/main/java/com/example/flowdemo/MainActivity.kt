@@ -7,100 +7,46 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Button
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.flowdemo.ui.theme.FlowDemoTheme
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.buffer
-import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.transform
-import kotlin.system.measureTimeMillis
 
 class MainActivity : ComponentActivity() {
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    enableEdgeToEdge()
-    setContent {
-      FlowDemoTheme {
-        Surface {
-          ScreenSetup()
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            FlowDemoTheme {
+                Surface {
+                    MainScreen()
+                }
+            }
         }
-      }
     }
-  }
 }
 
 @Composable
-fun ScreenSetup(viewModel: DemoViewModel = viewModel()) {
-  MainScreen(viewModel.newFlow)
-}
+fun MainScreen(viewModel: DemoViewModel = viewModel()) {
+    val count by viewModel.stateFlow.collectAsState()
+    val sharedCount by viewModel.sharedFlow.collectAsState(initial = 0)
+    val subCount by viewModel.subCount.collectAsState(initial = 0)
 
-@Composable
-fun MainScreen(flow: Flow<String>) {
-//  val count by flow.collectAsState(initial = 0)
-  var count by remember { mutableStateOf("Current value =") }
-
-  LaunchedEffect(Unit) {
-    val elapsedTime = measureTimeMillis {
-      flow.buffer().collect {
-        count = it
-        delay(1000)
-      }
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(text = "Count: $count")
+        Text(text = "Shared Count: $sharedCount")
+        Text(text = "Subscriber Count: $subCount")
+        Button(onClick = { viewModel.increaseValue() }) { Text("Plus Count State Flow") }
+        Button(onClick = { viewModel.startSharedFlow() }) { Text("Start Shared Flow") }
     }
-
-    count = "Duration = $elapsedTime"
-  }
-  Column(
-    modifier = Modifier.fillMaxSize(),
-    verticalArrangement = Arrangement.Center,
-    horizontalAlignment = Alignment.CenterHorizontally
-  ) {
-    Text(text = "Count: $count")
-  }
-}
-
-class DemoViewModel : ViewModel() {
-  val myFlow: Flow<Int> = flow {
-    for (i in 1..10) {
-      emit(i)
-      delay(2000)
-    }
-  }
-
-  val newFlow = myFlow.map {
-    "Current value: $it"
-  }
-
-  val transformedFlow = myFlow.transform {
-    emit("Value: $it")
-    delay(1000)
-    val doubled = it * 2
-    emit("Value doubled = $doubled")
-  }
-}
-
-@Preview
-@Composable
-fun DefaultPreview() {
-  FlowDemoTheme {
-    Surface {
-      ScreenSetup(viewModel())
-    }
-  }
 }
