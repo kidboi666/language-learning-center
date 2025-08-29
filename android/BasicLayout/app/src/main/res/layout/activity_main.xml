@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--양쪽 끝에 ?가 감싸져 있는 형태는 메타 데이터임을 뜻함-->
+
+<!--
+    <androidx.constraintlayout.widget.ConstraintLayout -> 모든 뷰들을 감싸는 루트 레이아웃으로 지정
+    xmlns:android="http://schemas.android.com/apk/res/android" -> 네임스페이스 선언, android라는 네임스페이스를 선언함으로 추후 안드로이드가 제공하는 속성을 사용할때 이 네임스페이스를 사용
+    xmlns:app="http://schemas.android.com/apk/res-auto" -> app 이라는 네임스페이스 선언
+    xmlns:tools="http://schemas.android.com/tools" -> tools 이라는 네임스페이스 선언
+    android:layout_width="match_parent" -> 레이아웃의 너비를 화면에 꽉차게 조정
+    android:layout_height="match_parent" -> 레이아웃의 높이를 화면에 꽉차게 조정
+    tools:context=".MainActivity" -> MainActivity.kt 파일을 참조
+    android:id="@+id/main" -> id를 main으로 설정
+    > -> 이상으로 컨스트레인트 레이아웃 태그를 열었음을 선언
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--
+    <TextView -> TextView를 생성
+    android:id="@+id/textView" -> id를 textView로 설정
+    android:layout_width="wrap_content" -> 뷰의 너비 속성을 내용에 딱 맞게 조정
+    android:layout_height="wrap_content" -> 뷰의 높이 속성을 내용에 딱 맞게 조정
+    android:text="Hello World!" -> text를 Hello World!로 설정
+    app:layout_constraintBottom_toBottomOf="parent" -> 뷰의 하단을 부모 레이아웃의 하단에 위치시킵니다.
+    app:layout_constraintEnd_toEndOf="parent" -> 뷰의 오른쪽을 부모 레이아웃의 오른쪽에 위치시킵니다.
+    app:layout_constraintHorizontal_bias="0.5" -> 뷰의 가로 중앙을 부모 레이아웃의 가로 중앙에 위치시킵니다.
+    app:layout_constraintStart_toStartOf="parent" -> 뷰의 왼쪽을 부모 레이아웃의 왼쪽에 위치시킵니다.
+    app:layout_constraintTop_toTopOf="parent" -> 뷰의 상단을 부모 레이아웃의 상단에 위치시킵니다.
+
+-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+<!--
+    </androidx.constraintlayout.widget.ConstraintLayout> -> 컨스트레인트 레이아웃 태그를 닫아줌
+-->
+</androidx.constraintlayout.widget.ConstraintLayout>
