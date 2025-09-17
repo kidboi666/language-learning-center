@@ -1,16 +1,33 @@
-import 'package:flutter/foundation.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-final helloProvider = Provider<String>((ref) {
+part 'basic_provider.g.dart';
+//
+// final helloProvider = Provider<String>((ref) {
+//   ref.onDispose(() {
+//     debugPrint('[helloProvider] disposed');
+//   });
+//   return 'Hello';
+// });
+//
+// final worldProvider = Provider<String>((ref) {
+//   ref.onDispose(() {
+//     print('[worldProvider] disposed');
+//   });
+//   return 'World';
+// });
+
+@Riverpod(keepAlive: true)
+String hello(Ref ref) {
   ref.onDispose(() {
-    debugPrint('[helloProvider] disposed');
+    print('[helloProvider] disposed');
   });
   return 'Hello';
-});
+}
 
-final worldProvider = Provider<String>((ref) {
+@Riverpod(keepAlive: true)
+String world(Ref ref) {
   ref.onDispose(() {
     print('[worldProvider] disposed');
   });
   return 'World';
-});
+}
