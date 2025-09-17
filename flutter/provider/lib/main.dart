@@ -3,16 +3,13 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'pages/auto_dispose/auto_dispose_page.dart';
 import 'pages/auto_dispose_family/auto_dispose_family_page.dart';
+import 'pages/auto_dispose_family_copy/auto_dispose_family_test_page.dart';
 import 'pages/basic/basic_page.dart';
 import 'pages/family/family_page.dart';
 import 'widgets/custom_button.dart';
 
 void main() {
-  runApp(
-    const ProviderScope(
-      child: MyApp(),
-    ),
-  );
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -38,29 +35,25 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Provider'),
-      ),
+      appBar: AppBar(title: const Text('Provider')),
       body: Center(
         child: ListView(
           shrinkWrap: true,
           padding: const EdgeInsets.all(20),
           children: const [
-            CustomButton(
-              title: 'Provider',
-              child: BasicPage(),
-            ),
+            CustomButton(title: 'Provider', child: BasicPage()),
             CustomButton(
               title: 'AutoDisposeProvider',
               child: AutoDisposePage(),
             ),
-            CustomButton(
-              title: 'FamilyProvider',
-              child: FamilyPage(),
-            ),
+            CustomButton(title: 'FamilyProvider', child: FamilyPage()),
             CustomButton(
               title: 'AutoDisposeFamilyProvider',
               child: AutoDisposeFamilyPage(),
+            ),
+            CustomButton(
+              title: 'AutoDisposeFamilyTestProvider',
+              child: AutoDisposeFamilyTestPage(),
             ),
           ],
         ),
