@@ -35,10 +35,6 @@ bool operator ==(Object other) {
 @override
 int get hashCode => Object.hash(runtimeType,id,name,username,email,phone,website);
 
-@override
-String toString() {
-  return 'User(id: $id, name: $name, username: $username, email: $email, phone: $phone, website: $website)';
-}
 
 
 }
@@ -213,8 +209,8 @@ return $default(_that.id,_that.name,_that.username,_that.email,_that.phone,_that
 /// @nodoc
 @JsonSerializable()
 
-class _User implements User {
-  const _User({required this.id, required this.name, required this.username, required this.email, required this.phone, required this.website});
+class _User extends User {
+  const _User({required this.id, required this.name, required this.username, required this.email, required this.phone, required this.website}): super._();
   factory _User.fromJson(Map<String, dynamic> json) => _$UserFromJson(json);
 
 @override final  int id;
@@ -244,10 +240,6 @@ bool operator ==(Object other) {
 @override
 int get hashCode => Object.hash(runtimeType,id,name,username,email,phone,website);
 
-@override
-String toString() {
-  return 'User(id: $id, name: $name, username: $username, email: $email, phone: $phone, website: $website)';
-}
 
 
 }

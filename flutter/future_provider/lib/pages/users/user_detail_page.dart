@@ -13,22 +13,28 @@ class UserDetailPage extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('User Detail')),
       body: userDetail.when(
-        data: (user) => ListView(
-          padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
-          children: [
-            Text(user.name, style: Theme.of(context).textTheme.headlineMedium),
-            const Divider(),
-            UserDetailPageRow(
-              userInfo: user.username,
-              icon: Icons.account_circle,
-            ),
-            const SizedBox(height: 10),
-            UserDetailPageRow(userInfo: user.email, icon: Icons.email),
-            const SizedBox(height: 10),
-            UserDetailPageRow(userInfo: user.phone, icon: Icons.phone),
-            const SizedBox(height: 10),
-            UserDetailPageRow(userInfo: user.website, icon: Icons.web),
-          ],
+        data: (user) => RefreshIndicator(
+          onRefresh: () async => ref.refresh(userDetailProvider(userId)),
+          child: ListView(
+            padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
+            children: [
+              Text(
+                user.name,
+                style: Theme.of(context).textTheme.headlineMedium,
+              ),
+              const Divider(),
+              UserDetailPageRow(
+                userInfo: user.username,
+                icon: Icons.account_circle,
+              ),
+              const SizedBox(height: 10),
+              UserDetailPageRow(userInfo: user.email, icon: Icons.email),
+              const SizedBox(height: 10),
+              UserDetailPageRow(userInfo: user.phone, icon: Icons.phone),
+              const SizedBox(height: 10),
+              UserDetailPageRow(userInfo: user.website, icon: Icons.web),
+            ],
+          ),
         ),
         error: (error, stackTrace) => Center(child: Text('Error: $error')),
         loading: () => const Center(child: CircularProgressIndicator()),

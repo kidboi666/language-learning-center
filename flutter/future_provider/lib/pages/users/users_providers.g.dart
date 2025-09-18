@@ -96,7 +96,7 @@ final class UserDetailProvider
   }
 }
 
-String _$userDetailHash() => r'56105a3065606fe22b63ec378a00613f977036ce';
+String _$userDetailHash() => r'5c70f3bf987bd34d044dd7e831951588edd0d7bb';
 
 final class UserDetailFamily extends $Family
     with $FunctionalFamilyOverride<FutureOr<User>, int> {
@@ -115,3 +115,36 @@ final class UserDetailFamily extends $Family
   @override
   String toString() => r'userDetailProvider';
 }
+
+@ProviderFor(returnOne)
+const returnOneProvider = ReturnOneProvider._();
+
+final class ReturnOneProvider
+    extends $FunctionalProvider<AsyncValue<int>, int, FutureOr<int>>
+    with $FutureModifier<int>, $FutureProvider<int> {
+  const ReturnOneProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'returnOneProvider',
+        isAutoDispose: false,
+        dependencies: null,
+        $allTransitiveDependencies: null,
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$returnOneHash();
+
+  @$internal
+  @override
+  $FutureProviderElement<int> $createElement($ProviderPointer pointer) =>
+      $FutureProviderElement(pointer);
+
+  @override
+  FutureOr<int> create(Ref ref) {
+    return returnOne(ref);
+  }
+}
+
+String _$returnOneHash() => r'574e8ea46c52064a3713bf894d85b327732ebcbf';

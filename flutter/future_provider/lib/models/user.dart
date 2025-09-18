@@ -5,6 +5,7 @@ part 'user.g.dart';
 
 @freezed
 abstract class User with _$User {
+  const User._();
   const factory User({
     required int id,
     required String name,
@@ -13,6 +14,9 @@ abstract class User with _$User {
     required String phone,
     required String website,
   }) = _User;
+
+  @override
+  String toString() => 'User(id: $id)';
 
   factory User.fromJson(Map<String, dynamic> json) => _$UserFromJson(json);
 }
