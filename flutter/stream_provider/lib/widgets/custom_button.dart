@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widget_previews.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({super.key, required this.title, required this.child});
@@ -18,24 +17,4 @@ class CustomButton extends StatelessWidget {
       ),
     );
   }
-}
-
-@Preview(name: 'Custom Button')
-Widget mySampleText() {
-  return ElevatedButton(
-    onPressed: () {
-      print('Hello world');
-    },
-    child: Text('Hello world'),
-  );
-}
-
-@Preview(name: 'Custom Button2')
-Widget mySampleText2() {
-  return FilledButton(
-    onPressed: () {
-      print('Hello world');
-    },
-    child: Text('Hello world'),
-  );
 }
